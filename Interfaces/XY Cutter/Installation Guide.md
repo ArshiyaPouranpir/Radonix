@@ -179,17 +179,17 @@ You can switch the jog mode by pressing this button according fig 01-05  and it 
 - The Minus icon lets you minimize it.
 - The $ icon create  a report  from the workpiece and operator can estimate the price
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/7dde4bf3-ec65-4f49-a635-8e13a03ac9d1/image.png)
+![Image](https://github.com/user-attachments/assets/b51c97cd-269c-42cb-839f-b9ef9c9256bc)
 
 ---
 
 ### **Interface specification**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4a4b9fa4-3469-43a5-a338-ef10f0914f2d/image.png)
+![Image](https://github.com/user-attachments/assets/b0de2c38-af29-4c21-b671-e2fdf7c5ebde)
 
 This section of the interface displays the current status and features of the system. It also updates to show alarms and processes every second. For a detailed report, double-click on this section.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8d50447e-feab-4fbf-a208-d1a3b444d766/image.png)
+![Image](https://github.com/user-attachments/assets/d3ff5245-33dc-418c-87e6-a60ce36f142a)
 
 ---
 
@@ -199,7 +199,7 @@ This section of the interface displays the current status and features of the sy
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/93126732-0b77-488e-9372-1171645d5698/image.png)
+![Image](https://github.com/user-attachments/assets/bf63095e-70e1-429a-b8e5-17f343aab233)
 
 This section is dedicated to controlling G-Code execution:
 
@@ -227,7 +227,7 @@ Configuring inputs in our CNC system is an essential step to ensure smooth opera
 
 Hardware inputs involve physical devices connected to the controller, enabling direct interaction with the machine's environment. These inputs are crucial for safety, machine control, and real-time feedback.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/b6bf2353-d2c8-46e5-b817-7852a26c6ed7/image.png)
+![Image](https://github.com/user-attachments/assets/41153e47-bcf4-4341-bb1b-6a108a3bb86a)
 
 The digital inputs of Radonix controllers are named as I.[n], where n is a number greater than zero and represents the input number. These inputs are isolated by optical couplers and have low noise tolerance due to their low impedance.
 
@@ -252,7 +252,7 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
         - Toggle the switch to the desired mode (PNP or NPN).
         - Ensure the board is powered off before making changes to prevent damage.
             
-            ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5234e53a-523b-434b-be9f-d99db25f2795/image.png)
+            ![Image](https://github.com/user-attachments/assets/f6f6213e-0dc4-445c-b176-f2f781f08861)
             
         
 - **PC Smart:**
@@ -272,7 +272,7 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
                 - In this configuration, the sensor’s output wire must pull the input to 0V to activate it.
         - Each group of 4 input pins has its own Come Pin, allowing for mixed configurations within the same board.
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/ba60d093-16bc-4c0e-aa31-cc53ea55edea/image.png)
+        ![Image](https://github.com/user-attachments/assets/e2c10bd7-2bca-4ba8-a9f0-baa7dd52b8cf)
         
 
 **Examples of Hardware Inputs:**
@@ -300,7 +300,7 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
 
 **Software-Based Inputs** provide simple logical functionality to configure arbitrary links and integrate them with related physical hardware .They facilitate quick and simple installation without the need for microprogramming. Users can simply select options from a list and configure settings to maximize efficiency.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4bc60a0b-b42f-4c30-9f75-4b33a0192ea7/image.png)
+![Image](https://github.com/user-attachments/assets/e5675bd2-99d9-4ff7-9187-d1ff2ddbbde1)
 
 As illustrated in the figure, each input is divided into three sub-branches, as detailed below:
 
@@ -348,7 +348,7 @@ This flexibility allows the system to adapt to a wide range of applications and 
 
 Hardware outputs involve physical signals sent from the controller to external devices, enabling direct control of the machine’s environment. These outputs are critical for operational safety, machine actuation, and real-time command execution, ensuring efficient workflow and coordination within the CNC system.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/0272e6ad-833a-4b06-9733-bc681e5375dd/image.png)
+![Image](https://github.com/user-attachments/assets/5e5823c8-3b51-4949-a57c-03119df04d2e)
 
 The digital outputs of Radonix controllers are named O.[n], where n is a numerical identifier greater than zero and represents the output number .
 
@@ -363,7 +363,7 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 - **Wiring Consideration:**
     - Connected devices must be compatible with NPN logic, where the load receives voltage from a positive source and is activated when the output pulls the circuit to ground.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3a3aca22-7fd6-4428-b66c-19b01731118a/image.png)
+    ![Image](https://github.com/user-attachments/assets/02e44c2e-fd6b-4915-94a1-5aeba23b59da)
     
 
 ### **Output Behavior in PC-Smart Models**
@@ -376,10 +376,10 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 - **Flexibility:**
     - This design allows PC-Smart models to adapt to different wiring requirements and device logic preferences.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/455205eb-8c3c-4cd8-815d-b73826fbc9e6/image.png)
+    ![Image](https://github.com/user-attachments/assets/080812bd-8f62-4996-966b-24eb93161ea5)
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/50ea19ad-9754-4df1-ab4a-9e36161d058d/image.png)
+![Image](https://github.com/user-attachments/assets/f2dda18c-bdeb-40e2-bfa3-f16c9ae3a8b6)
 
 **Configuration Process for Outputs:**
 
@@ -401,7 +401,7 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 
 **Software-Based Outputs** provide simple logical functionality to configure and integrate them with related physical hardware. These features are crucial for enhancing control capabilities. They facilitate quick and simple installation without the need for microprogramming. Users can simply select options from a list and configure settings to maximize efficiency.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/7e1544ec-505a-4cc3-acb7-acefbec970e4/image.png)
+![Image](https://github.com/user-attachments/assets/64f5e417-2fb7-47f2-9c21-98c147f55e66)
 
 As illustrated in the figure, each output is divided into three sub-branches, as detailed below:
 
@@ -629,7 +629,7 @@ A critical response mechanism in industrial settings used to halt machinery and 
 
 An advanced feature in control systems that allows users to define and set up custom emergency responses through the system settings. This mode can be programmed to engage different levels or types of responses depending on the nature and severity of the threat detected.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4d9b54ca-d964-4c44-a4e3-9be245e67591/image.png)
+![Image](https://github.com/user-attachments/assets/8160da6e-c58b-483c-9f27-84ae52832add)
 
 This variable is used to determine the operation that occurs when the Emergency button is pressed.
 
@@ -659,7 +659,7 @@ Indeed, home sensors are integral to the function and accuracy of CNC machines. 
 
 Overall, home sensors not only provide a safety mechanism by defining the limits of machine operation but also enhance operational precision by establishing a clear and reliable reference point for all machining tasks. This setup ensures that every point within the operational area is accurately positioned relative to the origin, making the machine's functioning both predictable and precise.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f73eb7f1-7a2f-413c-88cd-f2b6ca05e394/image.png)
+![Image](https://github.com/user-attachments/assets/c74bde6f-213d-42d2-a849-65d5300c4c69)
 
 To ensure precise cessation of axis movement after issuing the **Home** command, the appropriate **input links** must be configured prior to pressing the **Home** button, as depicted in the above explanation. This configuration ensures that the machine accurately detects the home position for each axis.
 
@@ -715,7 +715,7 @@ To set up hard limits in Radonix controllers:
 
 **limitPin,X**          
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3e85ecfd-fe2a-45b6-afd7-b504480166a6/image.png)
+![Image](https://github.com/user-attachments/assets/c173727d-c7f0-4da2-b1c9-d363932fc2d8)
 
 **LimitPin,-X   ///   LimitPin,Y   ///   LimitPin,-Y  ///   LimitPin,Z    ///  LimitPin,-Z**
 
@@ -791,35 +791,35 @@ Cut-C: Used to enable or disable the C-CutPin output, which includes the followi
 
 When placing the workpiece on the cutting table of the machine, there may be conditions that prevent aligning the piece with the motion axes (the workpiece may be placed askew or, in technical terms, not squared).
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/12b0833a-f0d5-4577-a49f-1eafce16f130/image.png)
+![Image](https://github.com/user-attachments/assets/ca9215d8-d0bd-46d2-840b-8748cdcad5eb)
 
 In these circumstances, it is necessary for the loaded design to rotate around the zero point according to how much the workpiece is skewed relative to the cutting table, so that the design aligns with the workpiece. To calculate the amount of rotation needed for the design, two points on the workpiece must be introduced to the software as shown below, allowing the software to compute the angle of rotation.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/e40d2ed7-f2de-45ab-91dd-a2cedcab2977/image.png)
+![Image](https://github.com/user-attachments/assets/1f8c28e6-e16a-42b8-86c9-2453290e9592)
 
 For this task, after loading the desired design, the cutting nozzle tip should be brought to a point tangent to the edge of the sheet. At the first point, press the P1 button, and at the second point, press the P2 button to introduce these two points to the software. By doing this, a blue line is drawn between these two points, which is exactly tangent to the edge of the workpiece.
 
 [Sheet Aligne.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/d76b5cb6-b289-4646-9a45-7a2923207034/Sheet_Aligne.mp4)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/759bfc7a-eedb-4175-9a49-122b00702bd2/image.png)
+![Image](https://github.com/user-attachments/assets/e84ed26b-3893-4a7b-b456-8a8d2263ff88)
 
 After that, by pressing Sheet Align, the design becomes tangent to the blue line and is completely positioned within the workpiece.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/eab2ee0e-0923-43b9-9409-669806a0495c/image.png)
+![Image](https://github.com/user-attachments/assets/ff3af0c9-9f19-44ab-b7c0-3d1d2df1031c)
 
 It should be noted that the greater the distance between the two points P1 and P2, the more accurately this process will be performed. Now, we will have one of the following two scenarios:
 
 **SheetAlignBaseAxis=X**: In this scenario, the points are selected along the X-axis, and the loaded design will align with the line connecting the two points P1 and P2 (as illustrated below):
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/d02385d4-6c55-4135-9ffa-1b03fbedfb24/image.png)
+![Image](https://github.com/user-attachments/assets/981dfe85-bcea-4bcf-8a65-78c94a1827d5)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/c4b29824-fbf4-4289-bbe6-2ef81c17da6e/image.png)
+![Image](https://github.com/user-attachments/assets/07432a65-4e17-4295-98fe-fe4082b1b48c)
 
 **SheetAlignBaseAxis=Y**: In this scenario, the points are selected along the Y-axis, and the loaded design will align with the line connecting the two points P1 and P2 (as illustrated below):
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/fadc9def-931a-4705-8080-110759844cb3/image.png)
+![Image](https://github.com/user-attachments/assets/75746da6-7a56-427a-a5d2-f14860e5af13)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4177ed46-fbd5-441a-ae86-3373288aed13/image.png)
+![Image](https://github.com/user-attachments/assets/1e386537-554f-42ca-9d72-43b1bb67c686)
 
 # **Calibration**
 
@@ -888,7 +888,7 @@ Configuring the Electronic Gear Ratio (E.G.) for servo drives is crucial for opt
 - **Objective:** Adjust the electronic gearing to enable the controller's output to meet the servo motor's pulse requirements.
 - **Procedure:**
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/c5bebdf7-6317-4d2a-9a27-e271e89105ee/image.png)
+    ![Image](https://github.com/user-attachments/assets/3eccd1c8-c78e-480c-87b4-351834bc76ee)
     
     E.G.=Required Pulses /  Controller’s Pulse Capability 
     
@@ -941,7 +941,7 @@ Despite its limitations in precision compared to computational methods, this app
 
 To enhance accuracy and speed in calibration by measurement, Radonix provides a complimentary software tool, CAM-Pro Calibrator. This tool is automatically installed with the main Radonix software suite. It efficiently calculates the step value by measuring the physical displacement of the axis and the required number of pulses for achieving this displacement.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/73cdda73-acaf-41ce-8f60-6b996441c704/image.png)
+![Image](https://github.com/user-attachments/assets/bf83b979-e362-43bf-adcd-e430ceba0254)
 
 Since pulse counting in this method is managed by the controller, there is no measurement error associated with pulses. Therefore, the measurement accuracy in this method is directly related to the accuracy of the physical measurement. Additionally, increasing the distance between two measured points results in a higher pulse count, effectively enlarging the denominator of the fraction. With the error remaining constant, the calculated step value becomes more precise. Consequently, calibration based on two widely spaced points will yield more accurate results .
 
@@ -949,15 +949,16 @@ Please note that two Radonix software programs should never be run simultaneousl
 
 As explained in the previous section, the CAM-Pro Calibrator software is installed alongside the CAM-Pro software. There are two methods to locate the calibrator software after installation. According to the first method, simply go to the installation location, which by default is on the C drive of Windows. Then navigate to the 'Program Files (x86)' folder, open the Radonix folder, and you will find the Radonix CAM-Pro file where the CAM-Pro Calibrator software can be seen. According to the second method, just use the Search feature from the Start menu (Figure 1, Step 1), search for 'Radonix CAM-Pro Calibrator', and run it
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5ab811b9-b9b8-432a-8225-9072d501eb6c/Untitled.png)
+![Image](https://github.com/user-attachments/assets/2aa26a66-5722-4f7d-bb05-1ea39cb82998)
 
 This program consists of two windows. The first window only appears if there are multiple active interfaces on a computer (Figure 3). Through this window, you can select the desired interface and launch it by pressing the 'Ok' button. If there is only one active interface on the computer, the interface selection window will not open, and the main window will open directly.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/aba06863-0e6c-4b4e-aeac-482ddcc9dc4e/58e902a1-88e2-4099-92c2-4d2c4c8716ea.png)
+![Image](https://github.com/user-attachments/assets/76d04316-d8f6-4209-af3f-9acd94b580f1)
 
 When you open the CAM-Pro Calibrator software, you will see Figure (4), which components are as follows:
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/65b2eea5-95e6-469c-8dd0-ff0a16e73a07/Untitled.png)
+
+![Image](https://github.com/user-attachments/assets/19696f1b-cb43-484a-976c-9ddf37e3d18c)
 
 1. **Connection**:
     - ProLan controllers must be set to **LAN mode**.
@@ -1149,87 +1150,87 @@ Step(unit/pulse) = Rotation amount per second in the motor * effective value * 3
 
 After opening any DXF file, the DXF Reader window automatically opens and displays the components contained in the file.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/900ad95d-0676-416a-b590-a79bfd3b8030/image.png)
+![Image](https://github.com/user-attachments/assets/5d631599-78ea-49db-bddc-577c4d7742f2)
 
 The toolbar below this window includes the following items:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/2864648c-8cf7-4af0-a0d6-fa42e8abb60b/image.png)
+![Image](https://github.com/user-attachments/assets/99c39493-9325-4485-bc03-473f968eed54)
 
 The Zoom Fit button, which when clicked, displays the opened design fully within the DXF Reader window.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/07c0620d-8455-4b99-86e5-ab785392c725/image.png)
+![Image](https://github.com/user-attachments/assets/07e958cd-fa34-4bb3-a7dd-9626ebeb7dca)
 
 The Zoom Out button, which when clicked, reduces the scale of the opened design by one level. Additionally, you can perform the Zoom Out action by holding the mouse pointer over the design and scrolling the Mouse Wheel upwards.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/cb5652be-7e8a-4485-9ea6-262a4f33fea6/image.png)
+![Image](https://github.com/user-attachments/assets/1b2b42e7-0141-4239-a598-7ca4cf4ca273)
 
 By clicking on this option, the opened design enlarges by one level. Additionally, you can perform the Zoom In action by holding the mouse pointer over the design and scrolling the Mouse Wheel downwards.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/dee8ef4b-b2f0-4dde-b66c-7eaca072e0c9/image.png)
+![Image](https://github.com/user-attachments/assets/48774885-cdae-4c7f-9f04-6dc3d3261239)
 
 This option is used to determine the position of the Reference point or zero of the workpiece in the opened design, which includes the following items:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/290da9b1-8274-49b3-a24a-78802ee5d2c0/image.png)
+![Image](https://github.com/user-attachments/assets/7e3d41d6-f861-4b7c-a436-63d0f02170d1)
 
 This option considers the bottom right corner of the shape, or in other words, the endpoint in the positive direction of the X-axis and the endpoint in the negative direction of the Y-axis, as the zero point.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/6757d87e-fb28-45fe-b20b-0781bdfc5613/image.png)
+![Image](https://github.com/user-attachments/assets/1120aae8-4bb0-4aeb-b6dc-afd442ee37ad)
 
 This option considers the top right corner of the shape, or in other words, the endpoint in the positive direction of the X-axis and the endpoint in the positive direction of the Y-axis, as the zero point.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/d01fdc0d-aa7b-4e2a-b8c8-9dcf1b434e3b/image.png)
+![Image](https://github.com/user-attachments/assets/ddfc82c6-0f0b-46db-989c-8e06e3b43fbd)
 
 This option considers the top left corner of the shape, or in other words, the endpoint in the negative direction of the X-axis and the endpoint in the positive direction of the Y-axis, as the zero point.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/ff16885d-ad04-4988-8521-f9c3b1408f0e/image.png)
+![Image](https://github.com/user-attachments/assets/0ce8487e-bcf1-4d5f-b6b8-67f5e95d13ca)
 
 This option considers the top left corner of the shape, or in other words, the endpoint in the negative direction of the X-axis and the endpoint in the positive direction of the Y-axis, as the zero point.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/6ad8cd26-7a59-4263-9bc3-8be08b504cb6/image.png)
+![Image](https://github.com/user-attachments/assets/046bef17-7d4e-459f-bf16-f63b193a2824)
 
 This option considers the starting point of the first piece in the opened design as the zero point.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/16783673-20b9-4f52-931c-8a32ffa1c710/image.png)
+![Image](https://github.com/user-attachments/assets/b419323a-5b0d-4004-9a3b-d5b21a632d71)
 
 This option is used for applying rotation (Rotate) or mirroring (Flip) to the design, which includes the following items:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5800de9f-0f38-4e42-b67e-637f34e25c77/image.png)
+![Image](https://github.com/user-attachments/assets/c7e0080d-fb3a-4ad2-8781-a7d05093e64b)
 
 90-degree rotation clockwise.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/378187aa-c8d8-442e-8a85-0f1f7addf0fd/image.png)
+![Image](https://github.com/user-attachments/assets/218b5ee4-abbd-44dd-8f08-4e9f01240242)
 
 90-degree rotation counterclockwise.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/55ef6b67-a5e9-4733-b1b2-8900126aa70d/image.png)
+![Image](https://github.com/user-attachments/assets/772b1bb4-bbd4-4a96-8c2e-1cea084859ca)
 
 Mirror across the X-axis
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/186e0259-98aa-4f91-9af0-5c4d744dafa6/image.png)
+![Image](https://github.com/user-attachments/assets/bf4b96db-f688-48a2-acc9-c608949f0868)
 
 Mirror across the Y-axis.
 
 In any design file, by default, parts are cut in the same sequence as they are drawn in the design software, and the start and end points of each cut are chosen based on the direction of the line drawn in the design software. However, in the DXF Reader section, the order and direction of the part cuts can be changed as desired. When you open a DXF file, by default, all parts are active for execution and the cutting direction is specified.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/c5cf64d7-5dde-45ab-b111-4a60d3e50818/image.png)
+![Image](https://github.com/user-attachments/assets/47e79846-cd43-4052-afce-18e92408f7ed)
 
 By clicking on the 'Arrange Objects' option, all parts are deactivated. By left-clicking on any part, it becomes activated for cutting, and by clicking again, it is deactivated. Additionally, by right-clicking on parts, you can reverse the cutting direction. If we have selected a number of parts for which the order of execution is important .for selecting the rest of the parts for which the order of execution does not matter from  Select objects 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8984df19-1b8b-4d10-be9e-64db3d127bb0/image.png)
+![Image](https://github.com/user-attachments/assets/820692b9-4839-4564-b6f7-094d70afa74f)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/e4cc23a8-f22a-40ce-b664-a235ea3fa0bd/image.png)
+![Image](https://github.com/user-attachments/assets/b78ffb83-743e-4179-9f80-be2d5b270272)
 
 The 'Default Arrange' option is for executing the design in the default order set by the design software. The 'Optimize' option selects the order of part cuts in such a way that minimizes the execution time of the file (the order of cuts is arranged such that after finishing the cut of one part, the closest starting point to the endpoint of the previous part is chosen).
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/a97b1307-1ff5-4a96-928b-e8c7136c90e9/image.png)
+![Image](https://github.com/user-attachments/assets/6c4e1d73-537d-4638-9842-6099f090567d)
 
 Clicking on this option selects only the parts that are in Polyline form for cutting, and deactivates the parts that do not have this feature.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/6f3b26de-e040-4d54-ba93-324aebc4ce48/image.png)
+![Image](https://github.com/user-attachments/assets/05671d54-08dd-41d9-afd4-19a9e9923147)
 
 The pink lines displayed in the figure are non-cutting or Traverse lines, which indicate the path of the machine's movement when transitioning between two different pieces. Clicking on this option allows you to activate or deactivate the display of these lines.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/0bd73a6b-7bb2-4530-b469-7d264cae136a/image.png)
+![Image](https://github.com/user-attachments/assets/99448453-e9fd-4705-bd37-ff05eb97ac5b)
 
 This section determines the cutting speed of the parts, and the unit is millimeters per second. Note that this speed only specifies the machine's movement speed during cutting and does not affect the machine's travel speed between two different pieces within a design.
 
