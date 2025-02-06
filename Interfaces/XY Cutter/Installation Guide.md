@@ -108,7 +108,7 @@ For starting primary installation there are some steps to go throw it and has a 
 
 ### **Top Status Bar**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/86b07580-1228-4cff-964c-af8dd919d552/image.png)
+![Image](https://github.com/user-attachments/assets/a7fa031c-5b1f-4ca5-8ebc-bb36aa7008ba)
 
 - **Online** (Yellow Light): Indicates the machine's connection status. Yellow may mean a standby mode or that it's not fully online.
 - **X Axis, Y Axis,**  (Green Lights): These lights show the operational status of each axis. Green typically means these axes are active or ready.
@@ -118,7 +118,7 @@ For starting primary installation there are some steps to go throw it and has a 
 
 ### **Position and Speed Readouts (Right Panel)**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/832cbe24-a996-4561-b126-692bceab3881/image.png)
+![Image](https://github.com/user-attachments/assets/264fd853-cf1f-46f2-98b9-b68c2e24aa6d)
 
 - **Position** :
 
@@ -126,7 +126,7 @@ This position is shown based on where the reference point has been selected.
 
 - **Velocity** (Below Relative Position): Shows the current operational speed in mm/s, useful for monitoring real-time cutting or movement speeds.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/dc358b23-0b6f-4df9-a3f0-2806703dd02f/image.png)
+![Image](https://github.com/user-attachments/assets/006aa1a9-472f-407b-a4ab-3f6d20dc8293)
 
 ---
 
@@ -136,24 +136,24 @@ Radonix interfaces offer a **dynamic reference adjustment feature**, allowing op
 
 it means that operator can change start point of workpiece on the table. 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/b817db5e-69a1-41b1-89cd-c4abde47e3f6/image.png)
+![Image](https://github.com/user-attachments/assets/98bc262a-9500-4984-9bad-a09c97f9f425)
 
 - Cut Velocity : This parameter defines the velocity of cut .
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/30ad1300-f392-4471-9472-6b0f07955316/image.png)
+![Image](https://github.com/user-attachments/assets/162d553c-bf9b-4adf-a8f0-fed247836c41)
 
 - **Manual Jogging Controls** :
     - **Arrows** (X+, X-, Y+, Y-): These buttons manually jog the machine along the X and Y axes, allowing for precise positioning adjustments by moving the tool head incrementally.
 
 You can switch the jog mode by pressing this button according fig 01-05  and it will change to figure 01-06, changing from continuous to incremental movement. This means you can define a value in this section according fig 01-07 which has been indicated in red area , and after pressing the coordinate axis jog, the axis will move by the amount you have entered.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/520d9e21-7969-4221-af56-e738c288eb52/image.png)
+![Image](https://github.com/user-attachments/assets/e455f2df-b7d5-47ee-b875-811ff8cb569c)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/a2899a09-3ae6-4d6f-913f-dbf2f3dfd682/image.png)
+![Image](https://github.com/user-attachments/assets/619163b7-d5e0-4a2d-8540-feddc8d7d009)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/99c1a585-6b60-4dfc-ad18-b92fca03545d/image.png)
+![Image](https://github.com/user-attachments/assets/1d60351d-3205-478f-b975-6c6535eea73f)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/628f1052-e618-4a96-be08-e65a07eef1b3/image.png)
+![Image](https://github.com/user-attachments/assets/00f74d3e-563d-4c02-9f89-4e577c935205)
 
 ---
 
@@ -161,11 +161,11 @@ You can switch the jog mode by pressing this button according fig 01-05  and it 
 
 - **V (mm/s)** and Step**(mm)**: Input fields for setting feed rates and movement limits along each axis. "V" controls the velocity (or speed) in mm/s, and "L" could define the step size for each manual jog.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/7649f0f8-4c0d-49dd-98e7-2d8413e740f1/image.png)
+![Image](https://github.com/user-attachments/assets/3e133ef9-148f-4e28-aede-fac412d57b4b)
 
 - **Scroll**  (Vertical Slider on Bottom Right ):According to figure 01-08 which is demarcated with red area or  Allows for real-time adjustment of the feed rate or speed as a percentage. This control can quickly change the speed without directly altering program values.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/0fe94eda-6670-4bb4-97c5-ec817e4e45f1/image.png)
+![Image](https://github.com/user-attachments/assets/b1879dfd-3b66-4bbd-9d67-5b250a66b93c)
 
 ---
 
@@ -173,7 +173,7 @@ You can switch the jog mode by pressing this button according fig 01-05  and it 
 
 - **Settings (Gear Icon)**: Opens the configuration menu, where detailed settings for the CNC machine can be adjusted.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/01bb0d3a-3f27-41e4-ba99-d9909511dc6a/image.png)
+![Image](https://github.com/user-attachments/assets/34fc0807-114f-4a0b-9794-9a0711f3e538)
 
 - The Exit icon allows you to close the program
 - The Minus icon lets you minimize it.
