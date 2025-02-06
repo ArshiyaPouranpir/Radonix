@@ -100,9 +100,9 @@ For starting primary installation there are some steps to go throw it and has a 
 
 1- Study about different part of interface which is named and indicated in photo it means that you should get familiar with all elements like Buttons , screen , bars , volume , values , … anything on interface you have accesses 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8ecfa564-07a4-40f2-a4ec-878ae9afe1f5/image.png)
+![Image](https://github.com/user-attachments/assets/08521506-983e-4f7b-b2ac-f8d03c0f210e)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/7d8d69d4-588c-43f0-8ff4-fa9575636bc6/image.png)
+![Image](https://github.com/user-attachments/assets/8f79758e-caae-4704-a0ef-c0e4ec820220)
 
 ---
 
