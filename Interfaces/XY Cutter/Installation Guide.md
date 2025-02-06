@@ -1218,31 +1218,31 @@ By clicking on the 'Arrange Objects' option, all parts are deactivated. By left-
 
 ![Image](https://github.com/user-attachments/assets/820692b9-4839-4564-b6f7-094d70afa74f)
 
-![Image](https://github.com/user-attachments/assets/b78ffb83-743e-4179-9f80-be2d5b270272)
+![Image](https://github.com/user-attachments/assets/6c4e1d73-537d-4638-9842-6099f090567d)
 
 The 'Default Arrange' option is for executing the design in the default order set by the design software. The 'Optimize' option selects the order of part cuts in such a way that minimizes the execution time of the file (the order of cuts is arranged such that after finishing the cut of one part, the closest starting point to the endpoint of the previous part is chosen).
 
-![Image](https://github.com/user-attachments/assets/6c4e1d73-537d-4638-9842-6099f090567d)
+![Image](https://github.com/user-attachments/assets/05671d54-08dd-41d9-afd4-19a9e9923147)
 
 Clicking on this option selects only the parts that are in Polyline form for cutting, and deactivates the parts that do not have this feature.
 
-![Image](https://github.com/user-attachments/assets/05671d54-08dd-41d9-afd4-19a9e9923147)
+![Image](https://github.com/user-attachments/assets/99448453-e9fd-4705-bd37-ff05eb97ac5b)
 
 The pink lines displayed in the figure are non-cutting or Traverse lines, which indicate the path of the machine's movement when transitioning between two different pieces. Clicking on this option allows you to activate or deactivate the display of these lines.
 
-![Image](https://github.com/user-attachments/assets/99448453-e9fd-4705-bd37-ff05eb97ac5b)
+![Image](https://github.com/user-attachments/assets/d094c3cd-42b6-4975-bae0-a50fea0f2e2d)
 
 This section determines the cutting speed of the parts, and the unit is millimeters per second. Note that this speed only specifies the machine's movement speed during cutting and does not affect the machine's travel speed between two different pieces within a design.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/74c3674b-0900-4148-a540-8e2e480d5c74/image.png)
+![Image](https://github.com/user-attachments/assets/44a2b053-d63e-4a15-b2ba-38c87400402d)
 
 After completing modifications on the loaded file, by clicking on this option, while preserving the original file, you can save your changes before executing the file to avoid the need for re-editing the design in future runs. It should be noted that the file is saved with a .CNC extension as a G-Code file, and it cannot be edited in subsequent runs.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/fcc70d8b-ba3b-40c8-9745-670c99fc149c/image.png)
+![Image](https://github.com/user-attachments/assets/3522802f-9cff-4d21-857a-83e85330425f)
 
 By clicking on this option, without saving changes, the DXF Reader window will close, and the design will be loaded and ready for execution.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8881640a-a2ce-435d-b9be-fda56aa6138c/image.png)
+![Image](https://github.com/user-attachments/assets/d711007a-0595-4fcb-94b9-1eac15451519)
 
 By clicking on this option, the DXF Reader window will close without loading the design.
 
