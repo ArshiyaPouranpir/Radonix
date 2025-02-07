@@ -797,7 +797,7 @@ In these circumstances, it is necessary for the loaded design to rotate around t
 
 For this task, after loading the desired design, the cutting nozzle tip should be brought to a point tangent to the edge of the sheet. At the first point, press the P1 button, and at the second point, press the P2 button to introduce these two points to the software. By doing this, a blue line is drawn between these two points, which is exactly tangent to the edge of the workpiece.
 
-[Sheet Aligne.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/d76b5cb6-b289-4646-9a45-7a2923207034/Sheet_Aligne.mp4)
+[[Sheet Aligne.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/d76b5cb6-b289-4646-9a45-7a2923207034/Sheet_Aligne.mp4)](https://www.youtube.com/watch?v=zD0-WAcfS4A)
 
 ![Image](https://github.com/user-attachments/assets/e84ed26b-3893-4a7b-b456-8a8d2263ff88)
 
