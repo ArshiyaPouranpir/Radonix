@@ -207,7 +207,7 @@ The **Backward** button provides operators the ability to step back within the G
 - **Pause**: This button halts the toolpath.
 - **Reset**: This button resets the toolpath.
 
-# ~~Relations Between Outputs and Inputs~~
+# **Relations Between Outputs and Inputs**
 
 # Inports
 
