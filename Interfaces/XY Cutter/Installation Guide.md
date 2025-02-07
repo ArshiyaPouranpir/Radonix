@@ -1,6 +1,6 @@
 # I**ntroduction**
 
-[Untitled video - Made with Clipchamp (17).mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8d0c6533-70be-477b-9e03-fbc4182dc330/Untitled_video_-_Made_with_Clipchamp_(17).mp4)
+[[Untitled video - Made with Clipchamp (17).mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8d0c6533-70be-477b-9e03-fbc4182dc330/Untitled_video_-_Made_with_Clipchamp_(17).mp4)](https://www.youtube.com/watch?v=OPIonsWhUOs)
 
 CNC cutting machines are typically designed for cutting two-dimensional designs and include two axes, X and Y, used for cutting materials such as metal, wood, plastic, and others. These machines may also feature a Z axis, which adjusts the cutting nozzle's distance from the workpiece surface. However, the Z-axis control in these machines is usually not automated or performed via G-Code; instead, the operator must manually adjust the nozzle's distance. The Z-axis motors can be AC, DC, stepper, or servo motors, and depending on the type and thickness of the materials, the cutting nozzle can be equipped with air gas, plasma, waterjet, laser, etc.
 
