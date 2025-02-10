@@ -1261,3 +1261,7 @@ The CutTime parameter can be used to control the duration it takes to pierce the
 In machines where the distance from the solenoid valves to the cutting nozzle is significant and the length of the intermediary hose is long, to prevent damage to the end part of the cut, be sure to use the PostCutTime parameter. This ensures that the machine pauses until the gas in the hoses is fully discharged, preventing damage to the workpiece.
 
 A significant part of the cutting quality in CNC oxy-fuel cutting machines depends on the operator's skill in adjusting the flame and the distance of the cutting nozzle to the workpiece.
+
+**CNC kontrol kartı çözümleri için [Radonix CNC Teknolojileri ile Tanışın](https://www.radonix.com/).**
+
+**Radonix Blog**: CNC kontrol sistemleri ve endüstriyel otomasyon konularında güncel makaleler ve haberler sunmaktadır. [Blog • Radonix - CNC Controllers Manufacturer](https://radonix.com.tr/blog/)
