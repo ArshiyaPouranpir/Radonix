@@ -91,11 +91,11 @@ You can switch the jog mode by pressing this button according fig 01-05  and it 
 
 - **V (mm/s)** and Step**(mm)**: Input fields for setting feed rates and movement limits along each axis. "V" controls the velocity (or speed) in mm/s, and "L" could define the step size for each manual jog.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/ff26cb42-900d-450a-b68f-44c446b33764/image.png)
+![Image](https://github.com/user-attachments/assets/d298fef5-522c-4235-b2a3-03025d3b72c7)
 
 - **Scroll**  (Vertical Slider on Bottom Right ):According to figure 01-08 which is demarcated with red area or  Allows for real-time adjustment of the feed rate or speed as a percentage. This control can quickly change the speed without directly altering program values.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/cb4a5c30-b24b-4449-9472-fdb95f29d4a4/image.png)
+![Image](https://github.com/user-attachments/assets/2083248e-0f2a-4697-9fd9-bfa563ef2bfb)
 
 ---
 
@@ -103,7 +103,7 @@ You can switch the jog mode by pressing this button according fig 01-05  and it 
 
 - **Settings (Gear Icon)**: Opens the configuration menu, where detailed settings for the CNC machine can be adjusted.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/39410150-1ffb-4b43-bb4d-d39e1eed380a/image.png)
+![Image](https://github.com/user-attachments/assets/3b6c7343-8975-40d7-afc4-d450bd9be2d8)
 
 - The Exit icon allows you to close the program
 - The Minus icon lets you minimize it.
@@ -112,11 +112,11 @@ You can switch the jog mode by pressing this button according fig 01-05  and it 
 
 Interface specification : 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8f7ba062-a675-49c0-a8d9-6769a47da8a1/image.png)
+![Image](https://github.com/user-attachments/assets/468aa43b-b4e5-4a7a-b87d-80ee753a7947)
 
 This section of the interface displays the current status and features of the system. It also updates to show alarms and processes every second. For a detailed report, double-click on this section.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/763c7cce-77be-4258-be28-1700fa8ad1a4/image.png)
+![Image](https://github.com/user-attachments/assets/6e1d26b2-dc92-4de1-8fcd-a4d4090ad88c)
 
 ---
 
@@ -128,7 +128,7 @@ This section of the interface displays the current status and features of the sy
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/bd296a18-ae51-4e1c-8991-28ee89e25aff/image.png)
+![Image](https://github.com/user-attachments/assets/4e693d7d-3cc3-4b9e-809c-3b319df453fa)
 
 This section is dedicated to controlling G-Code execution:
 
@@ -164,13 +164,13 @@ In CNC interfaces with the **Tool Change (TC)** option, such as the **XYZ Router
     The **Set Tool** button issues an order to take the selected tool to the **Tool Height Sensor**. This process automatically measures the tool height, ensuring accurate calibration and alignment of the tool with the workpiece.
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/6888a4b0-4165-4bc1-88e4-bbe13ae95bee/image.png)
+![Image](https://github.com/user-attachments/assets/a3097dd5-a699-4378-90c2-936bbcf18e2e)
 
 ### **Display and Zoom Controls (Center of Main Display)**
 
 - **Grid Display** (Black Area with Grid): Shows the work area and toolpath visualization. The grid assists in visualizing the relative position of the tool and workpiece.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/b308b93d-64d3-4ce4-94a5-aa6accdd75a4/image.png)
+![Image](https://github.com/user-attachments/assets/bb483569-b55b-4e10-8756-86819f7afb6d)
 
 - **Zoom and Pan Controls**:
     - **+ and - Buttons**: Zoom in and out on the display.
@@ -250,7 +250,7 @@ Inputs and outputs in the Radonix Cam Pro software are typically managed through
 2. Select **System** to open the configuration options.
 3. Choose either **Inports** or **Outports** to access the respective settings.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/e32a71f8-d18c-4a92-a884-55bde9315d08/image.png)
+![Image](https://github.com/user-attachments/assets/da533e5e-b7fc-42a4-8b17-43d5ede24302)
 
 **Expanding Input/Output Sections**
 
@@ -267,7 +267,7 @@ In Radonix CAM-Pro software, you can quickly view the status of the controller�
 
 Press **CTRL + SHIFT + ALT + Delete** to open an on-screen display that shows:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/31dbd53d-9a62-48b6-b2e8-d3a24a71c46d/image.png)
+![Image](https://github.com/user-attachments/assets/8feea4d0-2bc5-4743-86dd-93b8879757a4)
 
 1. **Internal Variables:**
     - Real-time values of key parameters such as feed rates, acceleration values, and any custom variables used in your CNC programs.
@@ -307,7 +307,7 @@ Configuring inputs in our CNC system is an essential step to ensure smooth opera
 
 Hardware inputs involve physical devices connected to the controller, enabling direct interaction with the machine's environment. These inputs are crucial for safety, machine control, and real-time feedback.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/b6bf2353-d2c8-46e5-b817-7852a26c6ed7/image.png)
+![Image](https://github.com/user-attachments/assets/3d5fc2c1-fa19-4d47-8ffd-e8a6fbfc937c)
 
 The digital inputs of Radonix controllers are named as I.[n], where n is a number greater than zero and represents the input number. These inputs are isolated by optical couplers and have low noise tolerance due to their low impedance.
 
@@ -330,7 +330,7 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
         - Toggle the switch to the desired mode (PNP or NPN).
         - Ensure the board is powered off before making changes to prevent damage.
             
-            ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5234e53a-523b-434b-be9f-d99db25f2795/image.png)
+            ![Image](https://github.com/user-attachments/assets/f2d9809f-e54c-4796-b646-185ea02bf48f)
             
         
 - **PC Smart:**
@@ -350,7 +350,7 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
                 - In this configuration, the sensor’s output wire must pull the input to 0V to activate it.
         - Each group of 4 input pins has its own Come Pin, allowing for mixed configurations within the same board.
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/ba60d093-16bc-4c0e-aa31-cc53ea55edea/image.png)
+        ![Image](https://github.com/user-attachments/assets/6a2decb3-6322-4a0b-a453-dfd78b9cd0b4)
         
 
 ### **Examples of Hardware Inputs:**
@@ -378,7 +378,7 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
 
 **Software-Based Inputs** provide simple logical functionality to configure arbitrary links and integrate them with related physical hardware .They facilitate quick and simple installation without the need for microprogramming. Users can simply select options from a list and configure settings to maximize efficiency.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4bc60a0b-b42f-4c30-9f75-4b33a0192ea7/image.png)
+![Image](https://github.com/user-attachments/assets/246e5680-384b-43aa-af17-c0507a18b646)
 
 As illustrated in the figure, each input is divided into three sub-branches, as detailed below:
 
@@ -462,7 +462,7 @@ This flexibility allows the system to adapt to a wide range of applications and 
 
 Hardware outputs involve physical signals sent from the controller to external devices, enabling direct control of the machine’s environment. These outputs are critical for operational safety, machine actuation, and real-time command execution, ensuring efficient workflow and coordination within the CNC system.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/0272e6ad-833a-4b06-9733-bc681e5375dd/image.png)
+![Image](https://github.com/user-attachments/assets/73569c80-7b96-4de4-8017-6dfe21d628ce)
 
 The digital outputs of Radonix controllers are named O.[n], where n is a numerical identifier greater than zero and represents the output number .
 
@@ -477,7 +477,7 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 - **Wiring Consideration:**
     - Connected devices must be compatible with NPN logic, where the load receives voltage from a positive source and is activated when the output pulls the circuit to ground.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3a3aca22-7fd6-4428-b66c-19b01731118a/image.png)
+    ![Image](https://github.com/user-attachments/assets/4101e955-e470-42e1-83dd-f48d06ee4472)
     
 
 ### **Output Behavior in PC-Smart Models**
@@ -490,10 +490,10 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 - **Flexibility:**
     - This design allows PC-Smart models to adapt to different wiring requirements and device logic preferences.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/455205eb-8c3c-4cd8-815d-b73826fbc9e6/image.png)
+    ![Image](https://github.com/user-attachments/assets/f8e0fe51-86bd-4252-9172-6999960c985e)
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/50ea19ad-9754-4df1-ab4a-9e36161d058d/image.png)
+![Image](https://github.com/user-attachments/assets/4ec636b0-d7e0-469a-a739-5e0b2b0ec2f1)
 
 ### **Configuration Process for Outputs:**
 
@@ -515,7 +515,7 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 
 **Software-Based Outputs** provide simple logical functionality to configure and integrate them with related physical hardware. These features are crucial for enhancing control capabilities. They facilitate quick and simple installation without the need for microprogramming. Users can simply select options from a list and configure settings to maximize efficiency.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/b512b422-ab71-4d34-b86c-b63400cf26da/image.png)
+![Image](https://github.com/user-attachments/assets/3c5035f0-ae22-434b-9b51-087ac0f951c3)
 
 As illustrated in the figure, each output is divided into three sub-branches, as detailed below:
 
@@ -728,7 +728,7 @@ A critical response mechanism in industrial settings used to halt machinery and 
 
 An advanced feature in control systems that allows users to define and set up custom emergency responses through the system settings. This mode can be programmed to engage different levels or types of responses depending on the nature and severity of the threat detected.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4d9b54ca-d964-4c44-a4e3-9be245e67591/image.png)
+![Image](https://github.com/user-attachments/assets/58d74926-a06a-4369-9f59-1aa75a813ed5)
 
 This variable is used to determine the operation that occurs when the Emergency button is pressed.
 
@@ -758,7 +758,7 @@ Indeed, home sensors are integral to the function and accuracy of CNC machines. 
 
 Overall, home sensors not only provide a safety mechanism by defining the limits of machine operation but also enhance operational precision by establishing a clear and reliable reference point for all machining tasks. This setup ensures that every point within the operational area is accurately positioned relative to the origin, making the machine's functioning both predictable and precise.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f73eb7f1-7a2f-413c-88cd-f2b6ca05e394/image.png)
+![Image](https://github.com/user-attachments/assets/0e710b76-bffa-49df-b9e6-251c279216e2)
 
 To ensure precise cessation of axis movement after issuing the **Home** command, the appropriate **input links** must be configured prior to pressing the **Home** button, as depicted in the above explanation. This configuration ensures that the machine accurately detects the home position for each axis.
 
@@ -814,7 +814,7 @@ To set up hard limits in Radonix controllers:
 3. Ensure the **Enabled** parameter is set to **True**.
     - **limitPin,X**
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3e85ecfd-fe2a-45b6-afd7-b504480166a6/image.png)
+        ![Image](https://github.com/user-attachments/assets/bf20bbaa-899d-4e49-b1ed-0afef25610ec)
         
         **LimitPin,-X   ///   LimitPin,Y   ///   LimitPin,-Y  ///   LimitPin,Z    ///  LimitPin,-Z**
         
@@ -892,7 +892,7 @@ Configuring the Electronic Gear Ratio (E.G.) for servo drives is crucial for opt
 - **Objective:** Adjust the electronic gearing to enable the controller's output to meet the servo motor's pulse requirements.
 - **Procedure:**
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/c5bebdf7-6317-4d2a-9a27-e271e89105ee/image.png)
+    ![Image](https://github.com/user-attachments/assets/21f4b1c4-92da-42e4-b4b4-499b19c4d457)
     
     E.G.=Required Pulses /  Controller’s Pulse Capability 
     
@@ -978,22 +978,22 @@ In this calibration method, the basis is measurement with measurement tools and 
 are sometimes not available. The basis of this method is measuring the displacement value for a specific number of pulses.
 To facilitate, improve accuracy, and speed up calibration using the measurement method, Radonix has provided a free software called CAM-Pro Calibrator, which is automatically installed with the main Radonix software. Based on the physical displacement measurement of the axis and the required number of pulses for this displacement, the software calculates the step value.
 
-![image.png](attachment:c1d17ba0-a235-43d4-954d-39fa7cdb87b3:image.png)
+![Image](https://github.com/user-attachments/assets/1e5392e6-0c0b-466b-904b-14295c444cc5)
 
 Since pulse counting in this method is the responsibility of the controller, there is no error in pulse measurement. Therefore, the measurement accuracy in this method is directly related to the physical measurement accuracy. In addition, the greater the distance between the two measured points, the larger the pulse value will be, which means the denominator will increase, and according to the constant error, the overall step value obtained will be more accurate. Therefore, calibrating based on two points will result in  more accurate results.
 
 Introduction to CAM-Pro Calibrator
 As explained in the previous section, the CAM-Pro Calibrator software is installed along with the CAMPro software. There are two ways to find the Calibrator software after installation. According to the first method, simply go to the installation location of the software, which is usually in the C drive of Windows by default, then go to the (x86) Program Files folder, open the Radonix folder, and the CAMProCalibrator software is visible in the Radonix CAM-Pro file. According to the second method, simply go to the Start menu and search for Radonix CAM-Pro Calibrator in the Search option. 
 
-![image.png](attachment:11cbfde2-b45d-4b69-a298-3a32be26c1ed:image.png)
+![Image](https://github.com/user-attachments/assets/4e5f8b07-b3f9-4a85-8c88-5a7b688638a1)
 
 This program consists of two windows. The first window only appears if there are multiple active interfaces on a computer (Figure 3). Through this window, you can select the desired interface and launch it by pressing the 'Ok' button. If there is only one active interface on the computer, the interface selection window will not open, and the main window will open directly.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/aba06863-0e6c-4b4e-aeac-482ddcc9dc4e/58e902a1-88e2-4099-92c2-4d2c4c8716ea.png)
+![Image](https://github.com/user-attachments/assets/083be36c-ba2a-4e93-a584-dd7805d6b036)
 
 When you open the CAM-Pro Calibrator software, you will see Figure (4), which components are as follows:
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/65b2eea5-95e6-469c-8dd0-ff0a16e73a07/Untitled.png)
+![Image](https://github.com/user-attachments/assets/0f4705a2-5fe6-40fb-a245-4149602e2381)
 
 1. **Connection**:
 - ProLan controllers must be set to **LAN mode**.
@@ -1169,11 +1169,11 @@ The Radonix controllers have analog outputs that generate a continuous value bet
 
 Radonix controllers in PC-Pro models have analog and PWM outputs which are shown as AO[n] and PWM.[n] respectively, while PC-Smart models only have analog outputs shown as A[n], where n is a number greater than zero.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4ead7d8d-83e4-4b1e-afc1-37697ad83103/image.png)
+![Image](https://github.com/user-attachments/assets/0efdeb6f-fd9b-468b-951f-76ca3b44a9b5)
 
 **How to connect the analog outputs**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/63d6f9e5-b405-406d-a114-12c70fa35a95/image.png)
+![Image](https://github.com/user-attachments/assets/da75795b-b93a-4b19-890d-44a3522ced79)
 
 ### 4. settings related to spindle
 
@@ -1220,7 +1220,7 @@ This variable determines the step change for the SpindleSpeed when using the Scr
 
 In this section, we will explain the automatic tool change, or Tool Changer, and how to set it up. Initially, depending on the type of axes present in your machine, an interface capable of supporting automatic tool changing should be installed. Interfaces that support automatic tool changing typically have the letters 'TC' at the end of their name.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/c58760df-a152-4c5b-8414-c0a725f9a4c9/image.png)
+![Image](https://github.com/user-attachments/assets/bebed3e3-c2e2-4d97-a8fc-fd741bec760a)
 
 After installing the interface and opening the Radonix software, the necessary settings for using the Tool Changer must be applied. To do this, first, the Settings window should be opened and the ToolChanger branch, where all the settings related to the Tool Changer exist, should be accessed. In this section, we will explain the essential settings for setting up the Tool Changer.
 
@@ -1240,7 +1240,7 @@ After setting the ToolChanger variables, the coordinates of all the tool parking
 Now, by manually moving or jogging the spindle, it is moved to the position of each tool in the parking area. At this stage, it must be ensured that the gripper is open when the ISO is placed on the spindle (the gripper being open depends on the output that was previously set using the T-ToolHolderPin link (output link in table 3)). A momentary switch connected to the T-ToolHolder,1 digital input link can be used to issue the command, or a virtual button can be added to the software with the same T-ToolHolder,1 link to toggle the output. Now, with great precision, the spindle is brought up to the top of each tool so that the ISO, along with the tool, is fully seated in the tool holder clamps. After that, on the main screen of the software, the Absolute coordinate values of each axis, which indicate the positionrelative to the home point, are entered separately for the coordinates of each parking space, and all
 parking spaces must be defined in the same way (Figure 24).
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8f63d0f7-64a0-4e6e-abb2-22773a434f76/image.png)
+![Image](https://github.com/user-attachments/assets/049cb938-f6ba-4a1a-9563-5cae18d63ba0)
 
 In the final step, the tool height measurement, which is one of the most essential steps in the tool changing process, is performed. In this step, first make sure that the input with the T-ToolHeightSensorPin link (input link in table 2) is defined, and then enter the tool height sensor coordinates in the ToolChanger branch and ToolHeightSensor sub-branch in order of axes (for more information, please refer to the ToolChanger table (table number 18) in the ToolChanger branch).
 
@@ -1406,9 +1406,9 @@ V
     - **OutPort08**: BrakePin (Brake control)
         
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/ef4f3a52-0033-4abe-8643-e4ceb3261997/image.png)
+        ![Image](https://github.com/user-attachments/assets/a9b0b29c-6a69-442f-93e2-73c46d8a8afd)
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4c8703d3-3fe9-45dc-97f1-35440f2b9469/image.png)
+        ![Image](https://github.com/user-attachments/assets/a26ef1cb-0627-4269-b8d6-ba3d721ffed5)
         
 
 ### **FAQ ( Frequently Asked Questions )**
