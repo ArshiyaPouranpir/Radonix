@@ -50,7 +50,7 @@ reference point.
 
 - **Velocity** (Below Relative Position): Shows the current operational speed in mm/s, useful for monitoring real-time cutting or movement speeds.(FAQ)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/61a85014-05b9-479e-9ffb-3710f82addc9/image.png)
+![Image](https://github.com/user-attachments/assets/a387816a-e55f-4e68-8b1e-e4c2e4c946b5)
 
 ---
 
@@ -58,11 +58,11 @@ reference point.
 
 - **Home** (Target Icon): Moves the machine to its home or origin position.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/98ad66cd-a99f-41b3-bf2c-dc536d130283/image.png)
+![image](https://github.com/user-attachments/assets/b71edd02-d9b0-48ba-bf04-3dd06cd64aab)
 
 - **X0 , Y0**  **, Z0** (Crosshair Icons): These  buttons take spindle to the X , Y , Z coordinates to zero or move the tool to the zero point in each axis.(FAQ)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/1e5a144f-9c89-48e0-85e0-8f8a89482620/image.png)
+![image](https://github.com/user-attachments/assets/2aca8b86-4ef0-47d5-b8d7-ab308d36c4c9)
 
 - You have two options for saving reference points. The first option is to manually move the tool by jogging, and when you reach the desired point, press the corresponding button to save that position for the axis. The second option is to directly enter the precise position value in the input box in front of each button.
     
@@ -75,15 +75,15 @@ reference point.
 
 You can switch the jog mode by pressing this button according fig 01-05  and it will change to figure 01-06, changing from continuous to incremental movement. This means you can define a value in this section according fig 01-07 which has been indicated in red area , and after pressing the coordinate axis jog, the axis will move by the amount you have entered.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/db482cae-aebb-4230-943d-909d0acb25f6/image.png)
+![Image](https://github.com/user-attachments/assets/057f25ae-dc04-4dfc-b5f8-d42c213fe923)
 
     —————————————————————————————————
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/a2899a09-3ae6-4d6f-913f-dbf2f3dfd682/image.png)
+![Image](https://github.com/user-attachments/assets/489102de-dbc1-4dd5-87bc-fa720d6fe7b7)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/99c1a585-6b60-4dfc-ad18-b92fca03545d/image.png)
+![Image](https://github.com/user-attachments/assets/4707218b-9d84-4f20-bd57-816fd1543e5c)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f7907150-5699-4d9d-911e-528326b66fb9/image.png)
+![Image](https://github.com/user-attachments/assets/fbe2cfe9-4c75-421b-959b-0b695132b592)
 
 ---
 
