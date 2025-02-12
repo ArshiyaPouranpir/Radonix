@@ -41,7 +41,7 @@ Here's a detailed description of each section and button on this CNC controller 
 **Absolute**: Displays the coordinates of the axes in reference to the
 home point.(FAQ)
 
-[![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8684a6e6-9bff-45e6-8091-7fb4ee5bdd81/image.png)](https://file.notion.so/f/f/26629e82-13c9-4084-96dd-228aca52449f/8684a6e6-9bff-45e6-8091-7fb4ee5bdd81/image.png?table=block&id=1973c12c-2017-8174-a68d-d38b5ac6455e&spaceId=26629e82-13c9-4084-96dd-228aca52449f&expirationTimestamp=1739404800000&signature=1ssrT0k3xY8td81ukvpWjkl08DhJqPC5YQXGePhy2_E&downloadName=image.png)
+![Image](https://github.com/user-attachments/assets/7ac0902d-eba6-44f9-b57f-95e07e6a04d8)
 
 - **Relative Position** (Besides Absolute Position):
 
