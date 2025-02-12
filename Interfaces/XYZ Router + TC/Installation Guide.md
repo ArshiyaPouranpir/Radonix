@@ -14,7 +14,7 @@ One of the key advantages of Radonix software and interfaces is the ability to i
 
 1- Study about different part of interface which is named and indicated in photo it means that you should get familiar with all elements like Buttons , screen , bars , volume , values , … anything on interface you have accesses 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/dbdc8197-acae-4486-b963-470383b49d98/image.png)
+![Image](https://github.com/user-attachments/assets/9d9562ca-e65c-4971-a820-02a94eb3da44)
 
 # Get Start
 
@@ -26,7 +26,7 @@ Here's a detailed description of each section and button on this CNC controller 
 
 ### **Top Status Bar**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/2f12e0d3-037a-41d0-8fc1-7850de5aef2e/image.png)
+![Image](https://github.com/user-attachments/assets/7ac0902d-eba6-44f9-b57f-95e07e6a04d8)
 
 - **Online** (Yellow Light): Indicates the machine's connection status. Yellow may mean a standby mode or that it's not fully online.(FAQ)
 - **X Axis, Y Axis, ZAxis** (Green Lights): These lights show the operational status of each axis. Green typically means these axes are active or ready.(FAQ)
@@ -41,7 +41,7 @@ Here's a detailed description of each section and button on this CNC controller 
 **Absolute**: Displays the coordinates of the axes in reference to the
 home point.(FAQ)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8684a6e6-9bff-45e6-8091-7fb4ee5bdd81/image.png)
+[![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8684a6e6-9bff-45e6-8091-7fb4ee5bdd81/image.png)](https://file.notion.so/f/f/26629e82-13c9-4084-96dd-228aca52449f/8684a6e6-9bff-45e6-8091-7fb4ee5bdd81/image.png?table=block&id=1973c12c-2017-8174-a68d-d38b5ac6455e&spaceId=26629e82-13c9-4084-96dd-228aca52449f&expirationTimestamp=1739404800000&signature=1ssrT0k3xY8td81ukvpWjkl08DhJqPC5YQXGePhy2_E&downloadName=image.png)
 
 - **Relative Position** (Besides Absolute Position):
 
