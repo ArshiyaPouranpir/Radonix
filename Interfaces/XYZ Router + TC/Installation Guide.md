@@ -1524,7 +1524,7 @@ To configure these parameters:
 
 Each axis requires defined **Max Course** and **Min Course** values to establish its operating range. For example:
 
-[Max course and Min Course.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/73279fc9-e2d5-461c-a604-605e92eb60eb/Max_course_and_Min_Course.mp4)
+https://www.youtube.com/watch?v=bajmD46s93w
 
 - On an X-axis with a 2-meter table length:
     - Set **Max Course** to `2000 mm`.
