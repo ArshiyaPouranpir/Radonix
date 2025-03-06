@@ -1,1 +1,406 @@
+# **Installation and Setup Process for Radonix CNC Controller**
 
+Radonix recommends following this detailed step-by-step guide for installing and configuring a Radonix CNC controller. The process encompasses everything from wiring the hardware to setting parameters in the software. This approach aims to guarantee a seamless installation experience for customers, addressing all critical components.
+
+## **Wiring Components for a Radonix CNC Controller**
+
+Proper wiring is the foundation of a reliable and high-performing CNC machine. A professional approach to wiring ensures seamless communication between the Radonix controller, servo or stepper motors, sensors, VFDs (Variable Frequency Drives), and other peripherals. This guide provides expert advice on wiring all components, including selecting appropriate power supplies, ensuring safety, and achieving optimal performance.
+
+**1. Main Components Overview**
+
+A typical CNC system includes the following components, all of which require precise and secure wiring:
+
+1. **Radonix CNC Controller:** The central control unit.
+2. **Servo or Stepper Motors:** Responsible for axis movement.
+3. **Variable Frequency Drive (VFD):** Controls the spindle motor.
+4. **Sensors:**
+    - **Home Sensors** for axis referencing.
+    - **Limit Switches** for boundary control.
+- **Home Sensors** for axis referencing.
+- **Limit Switches** for boundary control.
+1. **Emergency Stop (E-Stop):** Ensures immediate shutdown during emergencies.
+2. **Power Supplies:** Provides regulated power for different components.
+3. **Peripheral Outputs:** Includes relays, coolant pumps, and alarms.
+
+**2. Wiring the Main Power Supply**
+
+**Choosing the suitable Power Supply**
+
+- **Controller Power Supply:**
+    
+    It is recommended to use 24V switching power supplies to power the Radonix controllers. Calculating Power Supply Current To determine the required power supply current in the electrical panel, the current consumption of each element connected to the power supply must be calculated. For example, if there are 4 relays, 3 pneumatic solenoid valves, and a controller in a switchboard, the current consumption can be determined using Ohm’s law (V=I*R). The electric currents should be calculated and their sum considered as the current of the power supply, along with a confidence factor of a few percent. For example, if the current consumption of the relays is 0.1A and that of the solenoid valves is 0.25A, the total current can be calculated as follows: Total current = controller current + relay current + solenoid valve current IT = 0.5 + 4 * 0.1 + 3 * 0.25 = 1.65A
+    
+
+**3. Anti-Noise Measures for CNC Wiring**
+
+Electromagnetic interference (EMI) or electrical noise is a common issue in CNC systems, particularly when wiring sensitive components like controllers, servo drives, and sensors. Noise can disrupt signals, cause erratic machine behavior, and even damage components over time. Implementing robust **anti-noise measures** is critical for ensuring the reliable and precise operation of your CNC machine.
+
+**Sources of Electrical Noise**
+
+1. **High-Frequency Devices:**
+    - Variable Frequency Drives (VFDs)-  (In Related Machines)
+    - Switching power supplies
+2. **High-Power Components:**
+    - Spindle motors - (In Related Machines )
+    - Servo and stepper motors
+3. **Long Cables:**
+    - Longer cables act as antennas, picking up EMI.
+4. **Proximity to Power Lines:** 
+    - Signal and power cables running close together can cause interference.
+
+**Key Anti-Noise Measures**
+
+**1. Use Shielded Cables**
+
+- **Purpose:** Shielded cables reduce the effect of electromagnetic interference on sensitive signals.
+- **Implementation:**
+    - Use twisted-pair shielded cables for signal lines like **Pulse+, Pulse-, Direction+, Direction-**, and sensor signals.
+    - Connect the shield to ground at **one end only** to avoid ground loops.
+
+**2. Separate Signal and Power Cables**
+
+- **Purpose:** Prevent high-power cables from inducing noise in low-power signal cables.
+- **Implementation:**
+    - Route signal cables (e.g., sensor and control signals) separately from power cables (e.g., motor power and VFD output).
+    - Maintain at least 10-15 cm of separation between these cable types.
+    - Use different cable trays or conduits for power and signal lines.
+
+**3. Proper Grounding**
+
+- **Purpose:** A well-designed grounding system minimizes noise and protects components.
+- **Implementation:**
+    - Create a central grounding point in the electrical box, often referred to as a **grounding bus bar**.
+    - Ensure all grounding wires (controller, drives, motors, etc.) connect to this central point.
+    - Avoid daisy-chaining ground connections, which can introduce noise.
+
+**4. Install Ferrite Beads**
+
+- **Purpose:** Ferrite beads filter out high-frequency noise on signal and power cables.
+- **Implementation:**
+    - Clip ferrite beads onto signal and control cables near the controller or servo drives.
+    - Use multiple beads for particularly noisy environments.
+
+**5. Proper VFD Wiring**
+
+- **Purpose:** VFDs are a significant source of electrical noise and require special attention.
+- **Implementation:**
+    - Use shielded cables between the VFD and spindle motor.
+    - Ground the cable shield at the VFD end.
+    - Install line filters or chokes on the VFD input and output to suppress noise.
+
+**6. Shorten Cable Lengths**
+
+- **Purpose:** Longer cables are more susceptible to picking up noise.
+- **Implementation:**
+    - Keep cable lengths as short as possible without compromising flexibility.
+    - Avoid unnecessary slack or loops in the wiring.
+
+**7. Use Isolated Power Supplies**
+
+- **Purpose:** Prevent noise from one system affecting another.
+- **Implementation:**
+    - Use separate, isolated power supplies for sensitive components like sensors, encoders, and the controller.
+    - Ensure power supplies are adequately rated and properly grounded.
+
+**8. Use Optical Isolation**
+
+- **Purpose:** Protect the controller from noise on external connections.
+- **Implementation:**
+    - Use opto-isolators for connections to external devices like sensors, relays, or switches.
+    - Many Radonix controllers have built-in optical isolation for inputs and outputs.
+
+**9. Secure Connections**
+
+- **Purpose:** Loose connections can act as noise sources.
+- **Implementation:**
+    - Check all connectors for tight and secure connections.
+    - Use locking connectors where possible to prevent accidental disconnections.
+
+**10. Line Filters and Surge Protectors**
+
+- **Purpose:** Suppress high-frequency noise and protect against voltage spikes.
+- **Implementation:**
+    - Install EMI line filters on the AC mains supply.
+    - Use surge protectors on power inputs to the controller and VFD.
+
+## **Software Configuration: Bringing the System to Life**
+
+**Step 1: Install Radonix Cam Pro**
+
+- Download and install the software on your PC.
+- Upon turning on the controller, observe the LEDs on the LAN port: one should remain steady, while the other blinks.
+- Connect the Radonix controller to the computer via a LAN or USB cable.
+
+**Step 2: Initial Setup**
+
+- Open the software and initialize the system.
+- Perform a factory reset to ensure default settings are applied.
+
+**Step 3: Configure Inputs**
+
+- Navigate to **Settings > System > Inports.**
+- Assign roles to each input:
+    - `EmergencyStop` for the E-Stop button.
+    - `HomePin, X/Y/Z` for home sensors.
+    - `LimitPin, X/-X` for limit switches.
+- Test each input by activating it physically and observing the software response.
+
+**Step 4: Configure Outputs**
+
+- Navigate to **Settings > System > Outports.**
+- Assign roles to each output:
+    - `C-CutPin` for turn on torch.
+    - `C-ZfreePin,1` for active a Relay to move axis Z upward .
+    - `C-ZfreePin,-1` for active a Relay to move axis Z downward .
+- Test outputs by toggling them in the software and observing the connected devices.
+
+**Step 5: Axis Calibration**
+
+- Go to **Settings > System > Calibration.**
+- Enter parameters for each axis:
+    - **Steps per Unit:** Based on lead screw pitch, motor steps, and encoder resolution.
+    - **Max Travel:** Define the maximum travel distance for each axis.
+- Test calibration by commanding movements and measuring actual travel distances.
+
+# **Introduction**
+
+So here we have an interface which is related to Radonix CNC controllers in this software application there are some different  outputs and inputs links  in this part i provide a Text and illustration about the relation between these inputs and Outputs to create and flowchart and algorithm to easier install and run this application .
+
+This interface is called XYC Simple Glass Cut that includes kind of CAM which is called SimpleCAM or S-CAM 
+
+Study about different part of interface which is named and indicated in photo it means that you should get familiar with all elements like Buttons , screen , bars , volume , values , … anything on interface you have accesses 
+
+![XYC Simple Glass Cut  ](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f59f1f83-2895-4920-ad32-822389ceb5ad/image.png)
+
+XYC Simple Glass Cut  
+
+For starting primary installation there are some steps to go throw it and has a successful installing
+
+# Get Start
+
+## Workspace Descriptions
+
+Here's a detailed description of each section and button on this CNC controller interface
+
+---
+
+### **Top Status Bar**
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8966a18e-f78b-4a3d-9e04-c22fe2be5a0e/616948c5-b065-4307-8244-6c4a9e39846a.png)
+
+- **Online** (Yellow Light): Indicates the machine's connection status. Yellow may mean a standby mode or that it's not fully online.
+- **X Axis, Y Axis, C Axis** (Green Lights): These lights show the operational status of each axis. Green typically means these axes are active or ready.
+- **Alarm, Emergency, Table Up** (Brown Lights): Indicators for critical safety statuses. When activated, they may change color (e.g., red) to signal an alarm, emergency stop, or table positioning issue.
+
+---
+
+### **Position and Speed Readouts (Right Panel)**
+
+- **Absolute Position** (Top Right Box):
+
+**Absolute**: Displays the coordinates of the axes in reference to the
+home point.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5023d350-a091-42dd-9674-f50e19c7019a/image.png)
+
+- **Relative Position** (Besides Absolute Position):
+
+**Relative :** Shows the coordinates of the axes relative to the
+reference point.
+
+- **Velocity** (Below Relative Position): Shows the current operational speed in mm/s, useful for monitoring real-time cutting or movement speeds.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/d820b6d9-cfe6-42b4-a38c-f81c60943af0/85df82e8-df39-4f47-be96-e778d729a686.png)
+
+---
+
+### **Position Controls (Mid Right Panel)**
+
+- **Home** (Target Icon): Moves the machine to its home or origin position.
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/a62a1667-e5c8-462f-9c29-94ac028307ff/image.png)
+    
+- **X0 and Y0** (Crosshair Icons): These  buttons take spindle to the X and Y coordinates to zero or move the tool to the zero point in each axis.
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5e35660d-850a-45f4-a965-f1a69eb792d7/image.png)
+    
+- You have two options for saving reference points. The first option is to manually move the tool by jogging, and when you reach the desired point, press the corresponding button to save that position for the axis. The second option is to directly enter the precise position value in the input box in front of each button.
+
+---
+
+### **Manual Jogging Controls**
+
+- **Arrows** (X+, X-, Y+, Y-): These buttons manually jog the machine along the X and Y axes, allowing for precise positioning adjustments by moving the tool head incrementally.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/1e4fd34c-0da8-4059-b990-76124c86e174/3591ad47-472f-496c-a8a5-5c7190c32b50.png)
+
+- You can switch the jog mode by pressing this button according fig 01-05  and it will change to figure 01-06, changing from continuous to incremental movement. This means you can define a value in this section according fig 01-07 which has been indicated in red area , and after pressing the coordinate axis jog, the axis will move by the amount you have entered.
+
+    
+
+![**Figure 01-05**](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3902d5fa-5b1a-4c0e-9532-19059220ff10/image.png)
+
+**Figure 01-05**
+
+![**Figure 01-06**](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f412480e-1c35-4fd6-80ad-3745a7ed44da/image.png)
+
+**Figure 01-06**
+
+![Figure  01-07](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/0fba6bf1-763f-4eca-9dd3-abc856af6b43/image.png)
+
+Figure  01-07
+
+---
+
+### **Feed Rate and Tool Parameters (Lower Right Panel)**
+
+- **V (mm/s)** and **L (mm)**: Input fields for setting feed rates and movement limits along each axis. "V" controls the velocity (or speed) in mm/s, and "L" could define the step size for each manual jog.
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5e885635-a523-454a-9e44-ed4e56eaeab8/image.png)
+    
+- **Scroll**  (Vertical Slider on Bottom Right ):According to figure 01-08 which is demarcated with red area or  Allows for real-time adjustment of the feed rate or speed as a percentage. This control can quickly change the speed without directly altering program values.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/860dc314-a63b-4a77-889d-1a36d34cf809/image.png)
+
+---
+
+### **Main Program Controls**
+
+- **Settings (Gear Icon)**: Opens the configuration menu, where detailed settings for the CNC machine can be adjusted.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/1bf48a5c-cbb4-408b-b100-717b534695cd/image.png)
+
+- The Exit icon allows you to close the program
+- The Minus icon lets you minimize it.
+
+---
+
+Interface specification : 
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/9efd9479-e64f-4ddf-bc46-6904ee19d0ba/image.png)
+
+This section of the interface displays the current status and features of the system. It also updates to show alarms and processes every second. For a detailed report, double-click on this section.
+
+![In this image the interface had been in @simulation mode ](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/51406636-985b-44b9-8742-a5894b0c8f2e/image.png)
+
+In this image the interface had been in @simulation mode 
+
+---
+
+### **Main Program Controls (Bottom Center)**
+
+- **Open File** (Folder Icon): Opens a file dialog for loading a CAM (Computer-Aided Manufacturing) file, typically a G-code  or DXF program.
+- **S-CAM**: This may open a specific CAM software interface or display related options for configuring a machining job.
+    
+    [**Comprehensive Features of Radonix SimpleCAM**](https://www.notion.so/Comprehensive-Features-of-Radonix-SimpleCAM-1a73c12c20178174bedfd27f9b1a2d9f?pvs=21)
+    
+
+---
+
+### **Special Functions (Lower Right Buttons)**
+
+- **Frame** (Gray, Possibly Disabled): Frames or shows the cutting area, outlining the path that the tool will follow.
+- **Auto Align** (Gray, Possibly Disabled): Could automatically align the glass sheet based on your design.
+- **Blower**: Activates the air blower to facilitate the movement of glass sheets. .
+- **Peeling**: This could activate a peeling function, used for removing any protective covering (like paper) from the material surface before processing.
+
+---
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/2d080007-340f-4b1f-b390-e171daa8be06/image.png)
+
+This section is dedicated to controlling G-Code execution:
+
+- **RUN**: This button starts the G-Code process.
+- **Pause**: This button halts the toolpath.
+- **Reset**: This button resets the toolpath.
+
+---
+
+### **Display and Zoom Controls (Center of Main Display)**
+
+- **Grid Display** (Black Area with Grid): Shows the work area and toolpath visualization. The grid assists in visualizing the relative position of the tool and workpiece.
+- **Zoom and Pan Controls**:
+    - **+ and - Buttons**: Zoom in and out on the display.
+    - **Hand Icon**: Allows panning across the display grid.
+    - **Other Icons** (Bottom Right of Grid): These might control additional viewing or display settings, such as full screen or different zoom presets.
+
+---
+
+## Glass Branch
+
+### Loader Down Delays
+
+This parameter is crucial for managing how glass sheets are deposited back onto a surface or into a new position .The "Loader Down Delay" serves a parallel purpose during the lowering or placement phase.
+
+### Understanding Loader Down Delay
+
+**1. Purpose of Loader Down Delay:**
+
+- **Controlled Descent:** This delay regulates the speed and timing of lowering the glass to ensure that it is placed gently and precisely. It prevents any sudden drops that could crack or shatter the glass.
+- **Stabilization:** Allows the machinery and the glass to stabilize before final placement, ensuring that the glass is perfectly aligned according to the operational requirements.
+
+**2. Implementation and Benefits:**
+
+- **Enhanced Safety:** By controlling the descent, loader down delays minimize the risk of damage to both the glass and the machinery, enhancing operational safety.
+- **Improved Accuracy:** Slowing down at critical moments allows for finer adjustments in positioning, which is especially important for complex assemblies or delicate glass types.
+- **Operational Efficiency:** While introducing a delay might appear to slow the process, it actually enhances efficiency by reducing the likelihood of errors and the subsequent need for rework or glass replacement due to damage.
+
+### Loader Up Delays
+
+### Loader Up Delays in Glass Sheet Handling
+
+The term "Loader Up Delays" refers to the timed intervals that are crucial when using mechanical loaders to handle glass sheets, particularly in settings where CNC machines are employed for cutting or processing. These loaders can be hydraulic (hydric) or pneumatic, and each type has its unique characteristics and operational requirements.
+
+**Hydraulic Loaders:**
+
+- **Functionality**: Hydraulic systems utilize fluids to generate the force needed to lift and move heavy glass sheets. These systems are known for their smooth and powerful operation.
+- **Delay Significance**: Delays in hydraulic systems may occur as the fluid pressure builds up to the required level for operation. These delays are crucial for ensuring that the movement starts smoothly and that the glass is handled safely without abrupt movements that could lead to damage.
+
+**Pneumatic Loaders:**
+
+- **Functionality**: Pneumatic loaders use air pressure to operate. They are generally faster than hydraulic systems but might not provide the same level of force.
+- **Delay Significance**: In pneumatic systems, delays might be used to control the rapid response time of air pressure build-up, ensuring that the glass sheets are not subjected to sudden jolts, which could cause cracks or breaks.
+
+**Operational Considerations:**
+
+- **Safety**: Delays are programmed to ensure that the load is securely held before movement starts, preventing slippage or misalignment.
+- **Efficiency**: Properly timed delays contribute to the operational efficiency of the loading/unloading process, allowing for seamless transitions and minimizing the risk of mechanical failures or glass damage.
+
+**Adaptability Across Models:**
+
+- Different models of loaders, whether hydraulic, pneumatic, or other types, can have varied settings for these delays depending on the machine design, the weight of the glass sheets, and the specific requirements of the operation.
+
+In industrial settings where precision and safety are paramount, understanding and setting these "Loader Up Delays" correctly is essential. They ensure that the machinery operates within safe parameters while maintaining efficiency and protecting the materials being handled. This careful balancing of delay times helps optimize the overall workflow and extends the lifespan of both the mechanical loaders and the glass materials they handle.
+
+In the context of handling glass with loaders that feature intensive movements, having dual parameters for "Loader Up Delays" is particularly important. These parameters are specifically designed to manage and mitigate the risks associated with the rapid and forceful movements of the loader, ensuring both safety and precision during operation.
+
+### Importance of Managing Intensive Movements
+
+**1. Reducing Mechanical Stress:**
+
+- **Rationale:** Intensive movements can generate significant mechanical stress on both the glass and the machinery. By implementing strategic delays, these stresses can be controlled, reducing the potential for mechanical failure or damage to the glass.
+- **Implementation:** The first delay might be used to moderate the initial impact when the glass is picked up, while the second delay could be crucial just before the glass is set down at the processing point.
+
+**2. Enhancing Precision and Safety:**
+
+- **Precision:** Delays help in finely tuning the placement of the glass, crucial for processes like cutting or engraving, where exact alignment directly impacts product quality.
+- **Safety:** Slowing down the loader movements at critical junctures prevents accidents that could arise from the glass being handled too abruptly, protecting both the operators and the material.
+
+**3. Maintaining Operational Efficiency:**
+
+- **Efficiency:** While it might seem counterintuitive, integrating these delays can actually improve the overall speed of operations by reducing downtime associated with errors or damage.
+
+### Jack Movement Algorithm with Specific Inputs and Outputs for CNC Glass Cutting Table
+
+**Objective**: To automate the movement of jacks equipped with vacuum heads to safely position a glass sheet for cutting, using specific control and sensor pins.
+
+**System Inputs**:
+
+- `GlassDimensions`: Length and width of the glass.
+- `DesiredPosition`: Target position coordinates on the CNC table.
+
+**Control Pins and Sensor Inputs**:
+
+- **Inputs**:
+    - `G-LoaderDownSensor1Pin` and `G-LoaderDownSensor2Pin` - Sensors that detect the lowest position of the jacks.
+    - `G-LoaderUpSensorPin` - Sensor that detects the highest position of the jacks.
