@@ -1,6 +1,6 @@
 # **Introduction**
 
-[%XYZ-Router-TC2.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3b930658-15e5-4507-88ae-ee761dd203e1/XYZ-Router-TC2.mp4)
+https://www.youtube.com/watch?v=gV4O9N9klEw
 
 The XYZ Router -TC interface serves as a user interface between the operator and advanced software for a three-axis CNC machine, featuring capabilities such as automatic tool change, support for various types of linear and rotary parking systems, and digital output control during G-code execution via M-Code. Complementary features like the ability to connect an XBOX controller and keyboard as remote controllers, automatic park position adjustment, and the definition of up to 6 reference points for work start positions make machine operation easy and precise for operators. All inputs and outputs are pre-configured by default, so no additional programming is required. The interface can also be customized visually to fit the industrial needs and branding of manufacturing companies.
 
