@@ -2243,7 +2243,7 @@ To streamline the setup process and enhance precision in machining operations, i
 
 The integration of a **SurfaceDetector** sensor for automatic Z-axis zero setting enhances both the precision and efficiency of CNC operations. Proper setup, regular maintenance, and careful operation are crucial to leverage the full benefits of this technology. Always follow the manufacturer’s guidelines for installation and use to ensure optimal performance and reliability.
 
-[Untitled video - Made with Clipchamp (81).mp4](attachment:0e7e91a2-fb52-4b8a-882c-6cf319eeb71a:Untitled_video_-_Made_with_Clipchamp_(81).mp4)
+
 
 ### The spindle does not shut down automatically after completing the job. We have to turn it off manually .
 
