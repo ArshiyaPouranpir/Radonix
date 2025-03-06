@@ -66,7 +66,7 @@ reference point.
 
 - You have two options for saving reference points. The first option is to manually move the tool by jogging, and when you reach the desired point, press the corresponding button to save that position for the axis. The second option is to directly enter the precise position value in the input box in front of each button.
     
-    [Refrence Moving.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f8f387a4-538b-482e-b6e0-8d3c7285d8b8/Refrence_Moving.mp4)
+https://www.youtube.com/watch?v=0PmPmh48XlQ
     
 
 ### **Manual Jogging Controls**:
