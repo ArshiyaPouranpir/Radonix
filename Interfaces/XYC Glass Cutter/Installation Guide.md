@@ -219,6 +219,7 @@ reference point.
 ### **Position Controls (Mid Right Panel)**
 
 - **Home** (Target Icon): Moves the machine to its home or origin position.
+  
 ![Image](https://github.com/user-attachments/assets/68dd4ab7-49e2-48e5-8759-c15c293e3729)
     
 - **X0 and Y0** (Crosshair Icons): These  buttons take spindle to the X and Y coordinates to zero or move the tool to the zero point in each axis.
