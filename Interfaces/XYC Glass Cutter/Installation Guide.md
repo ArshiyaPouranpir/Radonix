@@ -1519,7 +1519,7 @@ For example:
 
 By assigning these outputs properly, the system can manage each breaker individually, allowing for precise and efficient execution of the glass separation process. This structured approach is critical for maintaining synchronization and achieving high-quality results in CNC glass cutting operations.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/c314d8b5-2668-470a-bc55-7d03b52edd4b/image.png)
+![Image](https://github.com/user-attachments/assets/e2637831-97f8-4c6f-9f37-396d0524b3f4)
 
 # 6. Oil
 
