@@ -170,7 +170,7 @@ This interface is called XYC Simple Glass Cut that includes kind of CAM which is
 
 Study about different part of interface which is named and indicated in photo it means that you should get familiar with all elements like Buttons , screen , bars , volume , values , … anything on interface you have accesses 
 
-![XYC Simple Glass Cut  ](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f59f1f83-2895-4920-ad32-822389ceb5ad/image.png)
+![Image](https://github.com/user-attachments/assets/f7bbff52-d87f-4832-8fc9-81ae9bcf2d6c)
 
 XYC Simple Glass Cut  
 
