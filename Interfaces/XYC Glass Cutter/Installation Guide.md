@@ -309,7 +309,7 @@ In this image the interface had been in @simulation mode
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/2d080007-340f-4b1f-b390-e171daa8be06/image.png)
+![Image](https://github.com/user-attachments/assets/e34aff2c-84ec-4311-821f-c56f73b320b7)
 
 This section is dedicated to controlling G-Code execution:
 
@@ -464,7 +464,7 @@ S-CAM includes an innovative feature that allows operators to input desired pres
 
 This parameter adjustment capability is especially effective in environments where material specifications vary widely, requiring frequent adjustments to machine settings to ensure optimal handling. The ability to quickly and accurately modify pressure settings according to operator input helps maintain high operational standards and adaptability.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/9b303cd3-4c2e-4307-881a-54974d628dc0/image.png)
+![Image](https://github.com/user-attachments/assets/a53e1d0c-139a-436e-a8ac-106dca42e40a)
 
  
 
@@ -598,7 +598,7 @@ When setting up CNC machines for glass cutting, particularly when using a laser 
 
 **Define the Offset** :                                                                                                                                                The offset values for the laser sensor relative to the diamond tip are essential for accurate alignment and cutting. These should be entered into the machine's control system under the specific settings for glass cutting, typically labeled as 'X or Y laser sensor offset relative to the diamond tip'.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/7a8628b9-f075-437a-84bf-a27919997f75/image.png)
+![Image](https://github.com/user-attachments/assets/b9ce64df-2bca-4828-92be-bf93e0e1dc48)
 
 1. **Zero Reference Point**: Consider the position of the diamond tip as the zero reference point. This is the baseline from which the offset of the laser sensor is measured.
 2. **Inputting Values**: If the laser sensor is positioned in a way that it extends beyond the diamond tip towards the direction of cutting, this should be inputted as a positive value. Conversely, if it is set back from the diamond tip, the value should be negative.
@@ -653,11 +653,11 @@ pay attention that this feature just can be achievable after the design has been
 
 # S-CAM
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/0c005298-437d-490e-911a-3bc28c95ecbf/image.png)
+![Image](https://github.com/user-attachments/assets/f69a391e-ea5b-490e-9b6e-fe7b9caf3fa9)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/40aad4ff-d7e9-4e58-b89f-68bef13b7ac9/image.png)
+![Image](https://github.com/user-attachments/assets/98efb01d-ca4f-495c-8b9d-0388c8c34a24)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/e597dca3-efc4-45c8-9e99-baedc15858ed/image.png)
+![Image](https://github.com/user-attachments/assets/c8567175-41ce-4254-87ff-ba363f24f01a)
 
 ## **Comprehensive Features of Radonix SimpleCAM**
 
@@ -689,11 +689,11 @@ pay attention that this feature just can be achievable after the design has been
 
 in this part we can investigate the relations between Inputs and Outputs 
 
-![Outputs Lists ](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/dffa0ad2-16f9-456a-a606-fb1dfadbe0e1/image.png)
+![Outputs Lists ]![Image](https://github.com/user-attachments/assets/4b75c5a3-855e-46c3-8d44-298ed819a556)
 
 Outputs Lists 
 
-![**Inputs Lists** ](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/2ae749e5-8b93-4274-b359-1b3481ae9940/image.png)
+![**Inputs Lists** ]![Image](https://github.com/user-attachments/assets/8f067b90-ac7b-48e2-86ec-ee125961a0f8)
 
 **Inputs Lists** 
 
@@ -713,7 +713,8 @@ Configuring inputs in our CNC system is an essential step to ensure smooth opera
 
 Hardware inputs involve physical devices connected to the controller, enabling direct interaction with the machine's environment. These inputs are crucial for safety, machine control, and real-time feedback.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/b6bf2353-d2c8-46e5-b817-7852a26c6ed7/image.png)
+![Image](https://github.com/user-attachments/assets/56a66a73-fb3e-43a2-95d3-0afc2fcdf754)
+
 
 The digital inputs of Radonix controllers are named as I.[n], where n is a number greater than zero and represents the input number. These inputs are isolated by optical couplers and have low noise tolerance due to their low impedance.
 
@@ -738,7 +739,7 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
         - Toggle the switch to the desired mode (PNP or NPN).
         - Ensure the board is powered off before making changes to prevent damage.
             
-            ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5234e53a-523b-434b-be9f-d99db25f2795/image.png)
+![Image](https://github.com/user-attachments/assets/2165d928-0837-4bbe-9acf-4ba89a34d767)
             
         
 - **PC Smart:**
@@ -758,7 +759,8 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
                 - In this configuration, the sensor’s output wire must pull the input to 0V to activate it.
         - Each group of 4 input pins has its own Come Pin, allowing for mixed configurations within the same board.
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/ba60d093-16bc-4c0e-aa31-cc53ea55edea/image.png)
+![Image](https://github.com/user-attachments/assets/17e014b1-f5e5-48f8-977e-c441db0af085)
+
         
 
 **Examples of Hardware Inputs:**
@@ -786,7 +788,7 @@ The ability to switch between **PNP** (positive logic) and **NPN** (negative log
 
 **Software-Based Inputs** provide simple logical functionality to configure arbitrary links and integrate them with related physical hardware .They facilitate quick and simple installation without the need for microprogramming. Users can simply select options from a list and configure settings to maximize efficiency.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4bc60a0b-b42f-4c30-9f75-4b33a0192ea7/image.png)
+![Image](https://github.com/user-attachments/assets/572d11cf-3a35-4a27-85d3-03fe62773b31)
 
 As illustrated in the figure, each input is divided into three sub-branches, as detailed below:
 
@@ -834,7 +836,7 @@ This flexibility allows the system to adapt to a wide range of applications and 
 
 Hardware outputs involve physical signals sent from the controller to external devices, enabling direct control of the machine’s environment. These outputs are critical for operational safety, machine actuation, and real-time command execution, ensuring efficient workflow and coordination within the CNC system.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/0272e6ad-833a-4b06-9733-bc681e5375dd/image.png)
+![Image](https://github.com/user-attachments/assets/5e90557c-0fba-45dc-a519-bb5c108e0eab)
 
 The digital outputs of Radonix controllers are named O.[n], where n is a numerical identifier greater than zero and represents the output number .
 
@@ -849,7 +851,7 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 - **Wiring Consideration:**
     - Connected devices must be compatible with NPN logic, where the load receives voltage from a positive source and is activated when the output pulls the circuit to ground.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3a3aca22-7fd6-4428-b66c-19b01731118a/image.png)
+![Image](https://github.com/user-attachments/assets/ae1dc577-46ec-49a2-b674-ca76ff51e82d)
     
 
 ### **Output Behavior in PC-Smart Models**
@@ -862,10 +864,10 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 - **Flexibility:**
     - This design allows PC-Smart models to adapt to different wiring requirements and device logic preferences.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/455205eb-8c3c-4cd8-815d-b73826fbc9e6/image.png)
+![Image](https://github.com/user-attachments/assets/f94231d6-cca0-4dba-aeaa-f7448d4b639d)
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/50ea19ad-9754-4df1-ab4a-9e36161d058d/image.png)
+![Image](https://github.com/user-attachments/assets/e22b6a93-6d5f-4adc-aabd-cd47be46c9fa)
 
 **Configuration Process for Outputs:**
 
@@ -887,7 +889,7 @@ Radonix controllers incorporate robust protection mechanisms for **Outports** to
 
 **Software-Based Outputs** provide simple logical functionality to configure and integrate them with related physical hardware. These features are crucial for enhancing control capabilities. They facilitate quick and simple installation without the need for microprogramming. Users can simply select options from a list and configure settings to maximize efficiency.
 
-![image.png](attachment:620c7f6c-4f50-4405-9852-f2bd6edbe261:image.png)
+![Image](https://github.com/user-attachments/assets/bf2a75e1-b6ea-4e23-8800-24cb3b1456fd)
 
 As illustrated in the figure, each output is divided into three sub-branches, as detailed below:
 
@@ -1090,7 +1092,7 @@ A critical response mechanism in industrial settings used to halt machinery and 
 
 An advanced feature in control systems that allows users to define and set up custom emergency responses through the system settings. This mode can be programmed to engage different levels or types of responses depending on the nature and severity of the threat detected.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/4d9b54ca-d964-4c44-a4e3-9be245e67591/image.png)
+![Image](https://github.com/user-attachments/assets/8011c380-dd96-4033-879b-deebc788f5fe)
 
 This variable is used to determine the operation that occurs when the Emergency button is pressed.
 
@@ -1118,7 +1120,7 @@ Indeed, home sensors are integral to the function and accuracy of CNC machines. 
 
 Overall, home sensors not only provide a safety mechanism by defining the limits of machine operation but also enhance operational precision by establishing a clear and reliable reference point for all machining tasks. This setup ensures that every point within the operational area is accurately positioned relative to the origin, making the machine's functioning both predictable and precise.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f73eb7f1-7a2f-413c-88cd-f2b6ca05e394/image.png)
+![Image](https://github.com/user-attachments/assets/9139950c-ff5b-4fdd-a436-41875d719c1b)
 
 To ensure precise cessation of axis movement after issuing the **Home** command, the appropriate **input links** must be configured prior to pressing the **Home** button, as depicted in the above explanation. This configuration ensures that the machine accurately detects the home position for each axis.
 
@@ -1205,7 +1207,7 @@ Configuring the Electronic Gear Ratio (E.G.) for servo drives is crucial for opt
 - **Objective:** Adjust the electronic gearing to enable the controller's output to meet the servo motor's pulse requirements.
 - **Procedure:**
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/c5bebdf7-6317-4d2a-9a27-e271e89105ee/image.png)
+![Image](https://github.com/user-attachments/assets/2f9d067c-4aaa-4139-a450-ea339193d136)
     
     E.G.=Required Pulses /  Controller’s Pulse Capability 
     
@@ -1297,22 +1299,22 @@ In this calibration method, the basis is measurement with measurement tools and 
 are sometimes not available. The basis of this method is measuring the displacement value for a specific number of pulses.
 To facilitate, improve accuracy, and speed up calibration using the measurement method, Radonix has provided a free software called CAM-Pro Calibrator, which is automatically installed with the main Radonix software. Based on the physical displacement measurement of the axis and the required number of pulses for this displacement, the software calculates the step value.
 
-![image.png](attachment:c1d17ba0-a235-43d4-954d-39fa7cdb87b3:image.png)
+![Image](https://github.com/user-attachments/assets/b1f92024-5331-44ad-bb2d-6d9089012b52)
 
 Since pulse counting in this method is the responsibility of the controller, there is no error in pulse measurement. Therefore, the measurement accuracy in this method is directly related to the physical measurement accuracy. In addition, the greater the distance between the two measured points, the larger the pulse value will be, which means the denominator will increase, and according to the constant error, the overall step value obtained will be more accurate. Therefore, calibrating based on two points will result in  more accurate results.
 
 Introduction to CAM-Pro Calibrator
 As explained in the previous section, the CAM-Pro Calibrator software is installed along with the CAMPro software. There are two ways to find the Calibrator software after installation. According to the first method, simply go to the installation location of the software, which is usually in the C drive of Windows by default, then go to the (x86) Program Files folder, open the Radonix folder, and the CAMProCalibrator software is visible in the Radonix CAM-Pro file. According to the second method, simply go to the Start menu and search for Radonix CAM-Pro Calibrator in the Search option. 
 
-![image.png](attachment:11cbfde2-b45d-4b69-a298-3a32be26c1ed:image.png)
+![Image](https://github.com/user-attachments/assets/64a2dff4-6db3-47f4-a003-1e13542c1d98)
 
 This program consists of two windows. The first window only appears if there are multiple active interfaces on a computer (Figure 3). Through this window, you can select the desired interface and launch it by pressing the 'Ok' button. If there is only one active interface on the computer, the interface selection window will not open, and the main window will open directly.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/aba06863-0e6c-4b4e-aeac-482ddcc9dc4e/58e902a1-88e2-4099-92c2-4d2c4c8716ea.png)
+![Image](https://github.com/user-attachments/assets/45c201c8-41fd-439e-9349-706a8c73b93f)
 
 When you open the CAM-Pro Calibrator software, you will see Figure (4), which components are as follows:
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/65b2eea5-95e6-469c-8dd0-ff0a16e73a07/Untitled.png)
+![Image](https://github.com/user-attachments/assets/57e2333d-fd7b-427b-8559-ba0776d1d77b)
 
 1. **Connection**:
 - ProLan controllers must be set to **LAN mode**.
@@ -1501,7 +1503,7 @@ In CNC glass cutting machines, specialized equipment is integrated to facilitate
 
 For this purpose, in CNC glass cutting machines, the number of **breakers** must be considered carefully. Typically, three breakers are installed to handle the separation process effectively. Each breaker requires dedicated **input links** to receive operational commands and **output links** to execute those command
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/299dc8e8-d6be-4223-a832-20c7fed7733e/image.png)
+![Image](https://github.com/user-attachments/assets/c2e1ef7e-bca0-4ecf-ad56-41d98555d5f3)
 
 As illustrated in the above description, the appropriate link for this task is **G-Braker,n**, where **n = 1, 2, 3**, corresponding to each breaker. These input links are designed to be connected to **press buttons** located on the control box for manual operation. Alternatively, they can be assigned to other devices such as a **remote control**, **Handwheel**, or even a **keyboard** for more flexible and advanced control options.
 
@@ -1531,7 +1533,7 @@ Oil plays a crucial role in the CNC glass cutting process for several reasons:
 - **Tool Protection**: By reducing wear on the cutting tool, oil extends its operational lifespan.
     - **Dust Reduction**: Oil helps to bind glass dust created during cutting, which is beneficial for both health and mechanical integrity.
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/b98e0c4e-5ade-4e9c-a04c-ff3b19777c8c/image.png)
+![Image](https://github.com/user-attachments/assets/05c0931b-a3ec-4757-8ed4-c4429a7688b8)
         
         The **output for oil control** must be configured in the **output links** using the format **G-OilPin**. This ensures that the system can activate or deactivate the oil output as required for the operation.
         
@@ -1579,7 +1581,8 @@ The **squaring tool**  is an essential component in CNC glass cutting machines, 
 
 `G-Cornerjacksensorpin`The input is for the sensor of the square jack on the table. When this input is activated,  it determines whether the angle jack is on or off.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/444934cb-21d5-4e0f-aa6f-3d6ab9d3c7a8/image.png)
+![Image](https://github.com/user-attachments/assets/6fdf0a9b-ec69-40c8-a716-ca929fe8b92c)
+
 
 ## Outputs to Control Jacks in CNC Glass Machines
 
@@ -1623,7 +1626,7 @@ The outputs used to control the **jacks** in CNC glass machines are critical for
 
 Proper configuration and usage of these outputs ensure precise control over the jacks, improving the efficiency and accuracy of operations in CNC glass machines.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/bc79f9ef-4c99-4762-8e6b-46efec555923/image.png)
+![Image](https://github.com/user-attachments/assets/b50635bf-e072-4ed3-b0df-45a123cbe81e)
 
 ## Pedal-Controlled Multi-Task Routine in CNC Glass Machines
 
