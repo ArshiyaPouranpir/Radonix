@@ -746,7 +746,7 @@ This variable is used to determine the operation that occurs when the Emergency 
 
 Indeed, home sensors are integral to the function and accuracy of CNC machines. Let's explore further how these sensors interact with the CNC controller and influence the machine workspace setup:
 
-[Home Pin set.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3a7f5aa3-2462-456c-b4c4-4d862f23792f/Home_Pin_set.mp4)
+https://www.youtube.com/watch?v=SmPtz4F01Hk
 
 **Role and Functionality of Home Sensors:**
 
