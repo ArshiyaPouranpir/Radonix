@@ -186,7 +186,8 @@ Here's a detailed description of each section and button on this CNC controller 
 
 ### **Top Status Bar**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/8966a18e-f78b-4a3d-9e04-c22fe2be5a0e/616948c5-b065-4307-8244-6c4a9e39846a.png)
+![image](https://github.com/user-attachments/assets/12d67f5a-24d3-4cd7-ad84-1f49ebf57e36)
+
 
 - **Online** (Yellow Light): Indicates the machine's connection status. Yellow may mean a standby mode or that it's not fully online.
 - **X Axis, Y Axis, C Axis** (Green Lights): These lights show the operational status of each axis. Green typically means these axes are active or ready.
@@ -201,7 +202,8 @@ Here's a detailed description of each section and button on this CNC controller 
 **Absolute**: Displays the coordinates of the axes in reference to the
 home point.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5023d350-a091-42dd-9674-f50e19c7019a/image.png)
+![Image](https://github.com/user-attachments/assets/e3d95b3e-5faf-464a-86d0-c45173746621)
+
 
 - **Relative Position** (Besides Absolute Position):
 
@@ -210,19 +212,18 @@ reference point.
 
 - **Velocity** (Below Relative Position): Shows the current operational speed in mm/s, useful for monitoring real-time cutting or movement speeds.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/d820b6d9-cfe6-42b4-a38c-f81c60943af0/85df82e8-df39-4f47-be96-e778d729a686.png)
+![Image](https://github.com/user-attachments/assets/16c61c05-9a0d-4dae-8164-edd74855c886)
 
 ---
 
 ### **Position Controls (Mid Right Panel)**
 
 - **Home** (Target Icon): Moves the machine to its home or origin position.
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/a62a1667-e5c8-462f-9c29-94ac028307ff/image.png)
+    ![Image](https://github.com/user-attachments/assets/68dd4ab7-49e2-48e5-8759-c15c293e3729)
     
 - **X0 and Y0** (Crosshair Icons): These  buttons take spindle to the X and Y coordinates to zero or move the tool to the zero point in each axis.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5e35660d-850a-45f4-a965-f1a69eb792d7/image.png)
+    ![Image](https://github.com/user-attachments/assets/f53e2e95-42ef-439c-8943-089492ebc88a)
     
 - You have two options for saving reference points. The first option is to manually move the tool by jogging, and when you reach the desired point, press the corresponding button to save that position for the axis. The second option is to directly enter the precise position value in the input box in front of each button.
 
@@ -232,21 +233,21 @@ reference point.
 
 - **Arrows** (X+, X-, Y+, Y-): These buttons manually jog the machine along the X and Y axes, allowing for precise positioning adjustments by moving the tool head incrementally.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/1e4fd34c-0da8-4059-b990-76124c86e174/3591ad47-472f-496c-a8a5-5c7190c32b50.png)
+![Image](https://github.com/user-attachments/assets/d08a9ab8-1b05-4e08-88c4-ad2b3baa4ecc)
 
 - You can switch the jog mode by pressing this button according fig 01-05  and it will change to figure 01-06, changing from continuous to incremental movement. This means you can define a value in this section according fig 01-07 which has been indicated in red area , and after pressing the coordinate axis jog, the axis will move by the amount you have entered.
 
     
 
-![**Figure 01-05**](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/3902d5fa-5b1a-4c0e-9532-19059220ff10/image.png)
+![Image](https://github.com/user-attachments/assets/59752d7c-638c-4050-a06f-d89368dc5277)
 
 **Figure 01-05**
 
-![**Figure 01-06**](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/f412480e-1c35-4fd6-80ad-3745a7ed44da/image.png)
+![Image](https://github.com/user-attachments/assets/2a13e3ef-43f5-4283-8090-470174750eaf)
 
 **Figure 01-06**
 
-![Figure  01-07](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/0fba6bf1-763f-4eca-9dd3-abc856af6b43/image.png)
+![Image](https://github.com/user-attachments/assets/7ae6e86e-f11b-4665-969a-f4a86f9ede82)
 
 Figure  01-07
 
@@ -256,11 +257,11 @@ Figure  01-07
 
 - **V (mm/s)** and **L (mm)**: Input fields for setting feed rates and movement limits along each axis. "V" controls the velocity (or speed) in mm/s, and "L" could define the step size for each manual jog.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/5e885635-a523-454a-9e44-ed4e56eaeab8/image.png)
+    ![Image](https://github.com/user-attachments/assets/d50e68f9-639b-4061-9411-9009dfc8c03b)
     
 - **Scroll**  (Vertical Slider on Bottom Right ):According to figure 01-08 which is demarcated with red area or  Allows for real-time adjustment of the feed rate or speed as a percentage. This control can quickly change the speed without directly altering program values.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/860dc314-a63b-4a77-889d-1a36d34cf809/image.png)
+![Image](https://github.com/user-attachments/assets/9c9b81fe-3a32-490e-bb63-75dada1d3c0b)
 
 ---
 
@@ -268,7 +269,7 @@ Figure  01-07
 
 - **Settings (Gear Icon)**: Opens the configuration menu, where detailed settings for the CNC machine can be adjusted.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/1bf48a5c-cbb4-408b-b100-717b534695cd/image.png)
+![Image](https://github.com/user-attachments/assets/c8a23ead-a5d7-4b0c-af57-322d6428da40)
 
 - The Exit icon allows you to close the program
 - The Minus icon lets you minimize it.
@@ -277,11 +278,11 @@ Figure  01-07
 
 Interface specification : 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/9efd9479-e64f-4ddf-bc46-6904ee19d0ba/image.png)
+![Image](https://github.com/user-attachments/assets/524173c2-43be-44f2-99ec-24452fece5a1)
 
 This section of the interface displays the current status and features of the system. It also updates to show alarms and processes every second. For a detailed report, double-click on this section.
 
-![In this image the interface had been in @simulation mode ](https://prod-files-secure.s3.us-west-2.amazonaws.com/26629e82-13c9-4084-96dd-228aca52449f/51406636-985b-44b9-8742-a5894b0c8f2e/image.png)
+![Image](https://github.com/user-attachments/assets/18e96e87-6261-4451-817a-138cf957ac2b)
 
 In this image the interface had been in @simulation mode 
 
