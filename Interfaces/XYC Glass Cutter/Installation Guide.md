@@ -219,11 +219,11 @@ reference point.
 ### **Position Controls (Mid Right Panel)**
 
 - **Home** (Target Icon): Moves the machine to its home or origin position.
-    ![Image](https://github.com/user-attachments/assets/68dd4ab7-49e2-48e5-8759-c15c293e3729)
+![Image](https://github.com/user-attachments/assets/68dd4ab7-49e2-48e5-8759-c15c293e3729)
     
 - **X0 and Y0** (Crosshair Icons): These  buttons take spindle to the X and Y coordinates to zero or move the tool to the zero point in each axis.
     
-    ![Image](https://github.com/user-attachments/assets/f53e2e95-42ef-439c-8943-089492ebc88a)
+![Image](https://github.com/user-attachments/assets/f53e2e95-42ef-439c-8943-089492ebc88a)
     
 - You have two options for saving reference points. The first option is to manually move the tool by jogging, and when you reach the desired point, press the corresponding button to save that position for the axis. The second option is to directly enter the precise position value in the input box in front of each button.
 
@@ -257,7 +257,8 @@ Figure  01-07
 
 - **V (mm/s)** and **L (mm)**: Input fields for setting feed rates and movement limits along each axis. "V" controls the velocity (or speed) in mm/s, and "L" could define the step size for each manual jog.
     
-    ![Image](https://github.com/user-attachments/assets/d50e68f9-639b-4061-9411-9009dfc8c03b)
+
+![Image](https://github.com/user-attachments/assets/d50e68f9-639b-4061-9411-9009dfc8c03b)
     
 - **Scroll**  (Vertical Slider on Bottom Right ):According to figure 01-08 which is demarcated with red area or  Allows for real-time adjustment of the feed rate or speed as a percentage. This control can quickly change the speed without directly altering program values.
 
